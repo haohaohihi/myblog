@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'blog'
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -127,7 +128,7 @@ STATICFILES_DIRS = (
 )
 
 #自定义用户model
-# AUTH_USER_MODEL = 'blog.User'
+AUTH_USER_MODEL = 'blog.User'
 
 # 网站的基本信息配置
 SITE_URL = 'http://localhost:8000/'

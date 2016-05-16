@@ -40,3 +40,205 @@ Traceback (most recent call last):
   File "/usr/local/lib/python3.4/dist-packages/django/template/context.py", line 260, in bind_template
     updates.update(processor(self.request))
 TypeError: global_setting() takes 0 positional arguments but 1 was given
+2016-05-16 15:42:48,481 [Thread-3:140638738237184] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/contrib/admin/options.py", line 639, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/local/lib/python3.4/dist-packages/django/forms/models.py", line 545, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/local/lib/python3.4/dist-packages/django/forms/models.py", line 257, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (conten) specified for Article
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.4/dist-packages/django/contrib/admin/options.py", line 541, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.4/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.4/dist-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.4/dist-packages/django/contrib/admin/sites.py", line 244, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.4/dist-packages/django/contrib/admin/options.py", line 1437, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/usr/local/lib/python3.4/dist-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/usr/local/lib/python3.4/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.4/dist-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/usr/lib/python3.4/contextlib.py", line 30, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.4/dist-packages/django/contrib/admin/options.py", line 1367, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "/usr/local/lib/python3.4/dist-packages/django/contrib/admin/options.py", line 642, in get_form
+    % (e, self.__class__.__name__))
+django.core.exceptions.FieldError: Unknown field(s) (conten) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2016-05-16 15:43:03,615 [Thread-12:140638712796928] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/contrib/admin/options.py", line 639, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/local/lib/python3.4/dist-packages/django/forms/models.py", line 545, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/local/lib/python3.4/dist-packages/django/forms/models.py", line 257, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (conten) specified for Article
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.4/dist-packages/django/contrib/admin/options.py", line 541, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.4/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.4/dist-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.4/dist-packages/django/contrib/admin/sites.py", line 244, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.4/dist-packages/django/contrib/admin/options.py", line 1437, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/usr/local/lib/python3.4/dist-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/usr/local/lib/python3.4/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.4/dist-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/usr/lib/python3.4/contextlib.py", line 30, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.4/dist-packages/django/contrib/admin/options.py", line 1367, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "/usr/local/lib/python3.4/dist-packages/django/contrib/admin/options.py", line 642, in get_form
+    % (e, self.__class__.__name__))
+django.core.exceptions.FieldError: Unknown field(s) (conten) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2016-05-16 15:44:02,659 [Thread-19:140233806554880] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/contrib/admin/options.py", line 639, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/local/lib/python3.4/dist-packages/django/forms/models.py", line 545, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/local/lib/python3.4/dist-packages/django/forms/models.py", line 257, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (conten) specified for Article
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.4/dist-packages/django/contrib/admin/options.py", line 541, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.4/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.4/dist-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.4/dist-packages/django/contrib/admin/sites.py", line 244, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.4/dist-packages/django/contrib/admin/options.py", line 1437, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/usr/local/lib/python3.4/dist-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/usr/local/lib/python3.4/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.4/dist-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/usr/lib/python3.4/contextlib.py", line 30, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.4/dist-packages/django/contrib/admin/options.py", line 1367, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "/usr/local/lib/python3.4/dist-packages/django/contrib/admin/options.py", line 642, in get_form
+    % (e, self.__class__.__name__))
+django.core.exceptions.FieldError: Unknown field(s) (conten) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2016-05-16 15:45:43,984 [Thread-3:140187650676480] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/contrib/admin/options.py", line 639, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/local/lib/python3.4/dist-packages/django/forms/models.py", line 545, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/local/lib/python3.4/dist-packages/django/forms/models.py", line 257, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (a) specified for Article
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.4/dist-packages/django/contrib/admin/options.py", line 541, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.4/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.4/dist-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.4/dist-packages/django/contrib/admin/sites.py", line 244, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.4/dist-packages/django/contrib/admin/options.py", line 1437, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/usr/local/lib/python3.4/dist-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/usr/local/lib/python3.4/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.4/dist-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/usr/lib/python3.4/contextlib.py", line 30, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.4/dist-packages/django/contrib/admin/options.py", line 1367, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "/usr/local/lib/python3.4/dist-packages/django/contrib/admin/options.py", line 642, in get_form
+    % (e, self.__class__.__name__))
+django.core.exceptions.FieldError: Unknown field(s) (a) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2016-05-16 15:45:47,316 [Thread-5:140187650676480] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/contrib/admin/options.py", line 639, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/local/lib/python3.4/dist-packages/django/forms/models.py", line 545, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/local/lib/python3.4/dist-packages/django/forms/models.py", line 257, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (a) specified for Article
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.4/dist-packages/django/contrib/admin/options.py", line 541, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.4/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.4/dist-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.4/dist-packages/django/contrib/admin/sites.py", line 244, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.4/dist-packages/django/contrib/admin/options.py", line 1437, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/usr/local/lib/python3.4/dist-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/usr/local/lib/python3.4/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.4/dist-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/usr/lib/python3.4/contextlib.py", line 30, in inner
+    return func(*args, **kwds)
+  File "/usr/local/lib/python3.4/dist-packages/django/contrib/admin/options.py", line 1367, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "/usr/local/lib/python3.4/dist-packages/django/contrib/admin/options.py", line 642, in get_form
+    % (e, self.__class__.__name__))
+django.core.exceptions.FieldError: Unknown field(s) (a) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2016-05-16 15:52:35,474 [Thread-43:139771842123520] [django.request:182] [base:get_response] [WARNING]- Not Found: /admin/blog/tag/1/delete/
+2016-05-16 15:52:42,102 [Thread-45:139771842123520] [django.request:182] [base:get_response] [WARNING]- Not Found: /admin/blog/tag/1/change/
