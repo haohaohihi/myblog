@@ -1,0 +1,42 @@
+2016-05-16 14:50:55,900 [Thread-2:140234341656320] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/media/haohao/数据/django_projects/myblog/blog/views.py", line 12, in index
+    return render(request, 'index.html', locals())
+  File "/usr/local/lib/python3.4/dist-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/usr/local/lib/python3.4/dist-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.4/dist-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 204, in render
+    with context.bind_template(self):
+  File "/usr/lib/python3.4/contextlib.py", line 59, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib/python3.4/dist-packages/django/template/context.py", line 260, in bind_template
+    updates.update(processor(self.request))
+TypeError: global_setting() takes 0 positional arguments but 1 was given
+2016-05-16 14:50:57,956 [Thread-3:140234333263616] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/media/haohao/数据/django_projects/myblog/blog/views.py", line 12, in index
+    return render(request, 'index.html', locals())
+  File "/usr/local/lib/python3.4/dist-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/usr/local/lib/python3.4/dist-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.4/dist-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 204, in render
+    with context.bind_template(self):
+  File "/usr/lib/python3.4/contextlib.py", line 59, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib/python3.4/dist-packages/django/template/context.py", line 260, in bind_template
+    updates.update(processor(self.request))
+TypeError: global_setting() takes 0 positional arguments but 1 was given
