@@ -2701,3 +2701,174 @@ Traceback (most recent call last):
     _mysql.connection.query(self, query)
 django.db.utils.ProgrammingError: (1146, "Table 'blog_db.blog_column' doesn't exist")
 2016-05-18 07:41:08,044 [Thread-108:140206170691328] [django.request:182] [base:get_response] [WARNING]- Not Found: /resume
+2016-05-18 09:35:30,556 [Thread-21:139698492135168] [django.request:182] [base:get_response] [WARNING]- Not Found: /resume
+2016-05-18 09:57:26,798 [Thread-25:140508982671104] [django.request:182] [base:get_response] [WARNING]- Not Found: /WEIBO_SINA
+2016-05-18 09:59:42,643 [Thread-36:140508974278400] [django.request:182] [base:get_response] [WARNING]- Not Found: /resume
+2016-05-18 10:00:16,099 [Thread-45:140508965885696] [django.request:182] [base:get_response] [WARNING]- Not Found: /resume
+2016-05-18 10:12:58,824 [Thread-3:140683506005760] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /resume/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/media/haohao/数据/django_projects/myblog/blog/views.py", line 212, in resume
+    return render(request, 'resume.htm')
+  File "/usr/local/lib/python3.4/dist-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/usr/local/lib/python3.4/dist-packages/django/template/loader.py", line 96, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.4/dist-packages/django/template/loader.py", line 32, in get_template
+    return engine.get_template(template_name, dirs)
+  File "/usr/local/lib/python3.4/dist-packages/django/template/backends/django.py", line 40, in get_template
+    return Template(self.engine.get_template(template_name, dirs), self)
+  File "/usr/local/lib/python3.4/dist-packages/django/template/engine.py", line 190, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "/usr/local/lib/python3.4/dist-packages/django/template/engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/usr/local/lib/python3.4/dist-packages/django/template/loaders/base.py", line 40, in get_template
+    contents = self.get_contents(origin)
+  File "/usr/local/lib/python3.4/dist-packages/django/template/loaders/filesystem.py", line 25, in get_contents
+    return fp.read()
+  File "/usr/lib/python3.4/codecs.py", line 319, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb8 in position 558: invalid start byte
+2016-05-18 10:13:34,147 [Thread-4:140683506005760] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /resume/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/media/haohao/数据/django_projects/myblog/blog/views.py", line 212, in resume
+    return render(request, 'resume.htm')
+  File "/usr/local/lib/python3.4/dist-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/usr/local/lib/python3.4/dist-packages/django/template/loader.py", line 96, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.4/dist-packages/django/template/loader.py", line 32, in get_template
+    return engine.get_template(template_name, dirs)
+  File "/usr/local/lib/python3.4/dist-packages/django/template/backends/django.py", line 40, in get_template
+    return Template(self.engine.get_template(template_name, dirs), self)
+  File "/usr/local/lib/python3.4/dist-packages/django/template/engine.py", line 190, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "/usr/local/lib/python3.4/dist-packages/django/template/engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/usr/local/lib/python3.4/dist-packages/django/template/loaders/base.py", line 40, in get_template
+    contents = self.get_contents(origin)
+  File "/usr/local/lib/python3.4/dist-packages/django/template/loaders/filesystem.py", line 25, in get_contents
+    return fp.read()
+  File "/usr/lib/python3.4/codecs.py", line 319, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb8 in position 558: invalid start byte
+2016-05-18 11:05:35,136 [Thread-5:140258857387776] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2016-05-18 11:05:39,135 [Thread-9:140258839815936] [django.request:182] [base:get_response] [WARNING]- Not Found: /resume/边子政_files/index.css
+2016-05-18 11:05:39,148 [Thread-10:140258831423232] [django.request:182] [base:get_response] [WARNING]- Not Found: /resume/边子政_files/photopre.jpg
+2016-05-18 11:08:37,660 [Thread-14:140258865780480] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /resume/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/media/haohao/数据/django_projects/myblog/blog/views.py", line 212, in resume
+    return render(request, 'resume.htm')
+  File "/usr/local/lib/python3.4/dist-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/usr/local/lib/python3.4/dist-packages/django/template/loader.py", line 96, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.4/dist-packages/django/template/loader.py", line 32, in get_template
+    return engine.get_template(template_name, dirs)
+  File "/usr/local/lib/python3.4/dist-packages/django/template/backends/django.py", line 40, in get_template
+    return Template(self.engine.get_template(template_name, dirs), self)
+  File "/usr/local/lib/python3.4/dist-packages/django/template/engine.py", line 190, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "/usr/local/lib/python3.4/dist-packages/django/template/engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/usr/local/lib/python3.4/dist-packages/django/template/loaders/base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 487, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 485, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 601, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 701, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ' 'resume.css'' from 'static 'resume.css''
+2016-05-18 11:09:50,984 [Thread-19:140258848208640] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /resume/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/media/haohao/数据/django_projects/myblog/blog/views.py", line 212, in resume
+    return render(request, 'resume.htm')
+  File "/usr/local/lib/python3.4/dist-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/usr/local/lib/python3.4/dist-packages/django/template/loader.py", line 96, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.4/dist-packages/django/template/loader.py", line 43, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: resume.htm
+2016-05-18 11:18:56,558 [Thread-70:139713089697536] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /resume/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/media/haohao/数据/django_projects/myblog/blog/views.py", line 214, in resume
+    return render(request, 'resume.htm')
+  File "/usr/local/lib/python3.4/dist-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/usr/local/lib/python3.4/dist-packages/django/template/loader.py", line 96, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.4/dist-packages/django/template/loader.py", line 43, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: resume.htm
+2016-05-18 11:45:09,380 [Thread-75:139712861824768] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /resume/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/media/haohao/数据/django_projects/myblog/blog/views.py", line 214, in resume
+    return render(request, 'resume.htm')
+  File "/usr/local/lib/python3.4/dist-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/usr/local/lib/python3.4/dist-packages/django/template/loader.py", line 96, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.4/dist-packages/django/template/loader.py", line 43, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: resume.htm
+2016-05-18 11:45:40,382 [Thread-3:140112369284864] [django.request:182] [base:get_response] [WARNING]- Not Found: /resume/刘志浩的简历 - 五百丁简历_files/bootstrap.css
+2016-05-18 11:45:40,393 [Thread-4:140112360892160] [django.request:182] [base:get_response] [WARNING]- Not Found: /resume/刘志浩的简历 - 五百丁简历_files/zxbj_base.css
+2016-05-18 11:45:40,412 [Thread-5:140112450684672] [django.request:182] [base:get_response] [WARNING]- Not Found: /resume/刘志浩的简历 - 五百丁简历_files/jquery.js
+2016-05-18 11:45:40,429 [Thread-6:140112360892160] [django.request:182] [base:get_response] [WARNING]- Not Found: /resume/刘志浩的简历 - 五百丁简历_files/jquery-1.js
+2016-05-18 11:45:40,439 [Thread-7:140112369284864] [django.request:182] [base:get_response] [WARNING]- Not Found: /resume/刘志浩的简历 - 五百丁简历_files/layer.js
+2016-05-18 11:45:40,455 [Thread-8:140112352499456] [django.request:182] [base:get_response] [WARNING]- Not Found: /resume/刘志浩的简历 - 五百丁简历_files/layer.png
+2016-05-18 11:45:40,465 [Thread-9:140112450684672] [django.request:182] [base:get_response] [WARNING]- Not Found: /resume/刘志浩的简历 - 五百丁简历_files/layer.css
+2016-05-18 11:45:40,480 [Thread-10:140112360892160] [django.request:182] [base:get_response] [WARNING]- Not Found: /resume/刘志浩的简历 - 五百丁简历_files/export.css
+2016-05-18 11:45:40,491 [Thread-11:140112369284864] [django.request:182] [base:get_response] [WARNING]- Not Found: /resume/刘志浩的简历 - 五百丁简历_files/export.js
+2016-05-18 11:45:40,505 [Thread-12:140112450684672] [django.request:182] [base:get_response] [WARNING]- Not Found: /resume/刘志浩的简历 - 五百丁简历_files/jm0247.css
+2016-05-18 12:00:50,781 [Thread-18:140112335714048] [django.request:182] [base:get_response] [WARNING]- Not Found: /resume/刘志浩简历模板 - 五百丁简历_files/zxbj_base.css
+2016-05-18 12:00:50,795 [Thread-19:140112369284864] [django.request:182] [base:get_response] [WARNING]- Not Found: /resume/刘志浩简历模板 - 五百丁简历_files/jm0247.css
+2016-05-18 12:00:50,809 [Thread-20:140112450684672] [django.request:182] [base:get_response] [WARNING]- Not Found: /resume/刘志浩简历模板 - 五百丁简历_files/jquery-1.8.0.js
+2016-05-18 12:00:50,828 [Thread-21:140112450684672] [django.request:182] [base:get_response] [WARNING]- Not Found: /resume/刘志浩简历模板 - 五百丁简历_files/common.js
+2016-05-18 12:00:50,840 [Thread-22:140112450684672] [django.request:182] [base:get_response] [WARNING]- Not Found: /resume/刘志浩简历模板 - 五百丁简历_files/utils.js
+2016-05-18 12:00:50,855 [Thread-23:140112450684672] [django.request:182] [base:get_response] [WARNING]- Not Found: /resume/刘志浩简历模板 - 五百丁简历_files/export.js
+2016-05-18 12:00:50,865 [Thread-24:140112450684672] [django.request:182] [base:get_response] [WARNING]- Not Found: /resume/刘志浩简历模板 - 五百丁简历_files/check.jhtml
+2016-05-18 12:00:50,881 [Thread-25:140112450684672] [django.request:182] [base:get_response] [WARNING]- Not Found: /resume/刘志浩简历模板 - 五百丁简历_files/modal.js
+2016-05-18 12:02:01,515 [Thread-33:140112344106752] [django.request:182] [base:get_response] [WARNING]- Not Found: /resume/刘志浩简历模板 - 五百丁简历_files/common.js
+2016-05-18 12:02:01,516 [Thread-32:140112335714048] [django.request:182] [base:get_response] [WARNING]- Not Found: /resume/刘志浩简历模板 - 五百丁简历_files/jquery-1.8.0.js
+2016-05-18 12:02:01,525 [Thread-34:140112360892160] [django.request:182] [base:get_response] [WARNING]- Not Found: /resume/刘志浩简历模板 - 五百丁简历_files/utils.js
+2016-05-18 12:02:01,530 [Thread-35:140112352499456] [django.request:182] [base:get_response] [WARNING]- Not Found: /resume/刘志浩简历模板 - 五百丁简历_files/export.js
+2016-05-18 12:02:01,536 [Thread-36:140112369284864] [django.request:182] [base:get_response] [WARNING]- Not Found: /resume/刘志浩简历模板 - 五百丁简历_files/check.jhtml
+2016-05-18 12:02:01,562 [Thread-37:140112450684672] [django.request:182] [base:get_response] [WARNING]- Not Found: /resume/刘志浩简历模板 - 五百丁简历_files/modal.js
+2016-05-18 12:02:05,596 [Thread-44:140112450684672] [django.request:182] [base:get_response] [WARNING]- Not Found: /resume/刘志浩简历模板 - 五百丁简历_files/jquery-1.8.0.js
+2016-05-18 12:02:05,619 [Thread-45:140112352499456] [django.request:182] [base:get_response] [WARNING]- Not Found: /resume/刘志浩简历模板 - 五百丁简历_files/common.js
+2016-05-18 12:02:05,624 [Thread-46:140112335714048] [django.request:182] [base:get_response] [WARNING]- Not Found: /resume/刘志浩简历模板 - 五百丁简历_files/utils.js
+2016-05-18 12:02:05,636 [Thread-48:140112450684672] [django.request:182] [base:get_response] [WARNING]- Not Found: /resume/刘志浩简历模板 - 五百丁简历_files/check.jhtml
+2016-05-18 12:02:05,638 [Thread-47:140112369284864] [django.request:182] [base:get_response] [WARNING]- Not Found: /resume/刘志浩简历模板 - 五百丁简历_files/export.js
+2016-05-18 12:02:05,643 [Thread-49:140112344106752] [django.request:182] [base:get_response] [WARNING]- Not Found: /resume/刘志浩简历模板 - 五百丁简历_files/modal.js

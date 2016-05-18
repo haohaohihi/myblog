@@ -11,4 +11,5 @@ urlpatterns = [
     url(r'^login', views.do_login, name='login'),
     url(r'^catalog/$', views.catalog, name='catalog'),
     url(r'^tag/$', views.tag, name='tag'),
+    url(r'^resume/$', views.resume, name='resume'),
 ]

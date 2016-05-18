@@ -29,7 +29,7 @@
   <nav id="topnav" class="f_r">
     <ul>
         {% for column in column_list %}
-      <a href={{ column.url }} target="_blank">{{ column.name }}</a>
+      <a href={{ column.url }}>{{ column.name }}</a>
         {% endfor %}
     </ul>
     <script src='{% static "js/nav.js "%}'></script>
@@ -43,17 +43,7 @@
   <div class="r_box f_r">
 
 
-    <div class="tit01">
-      <h3>关注我</h3>
-      <div class="gzwm">
-        <ul>
-          <li><a class="xlwb" href="#" target="_blank">新浪微博</a></li>
-          <li><a class="txwb" href="#" target="_blank">腾讯微博</a></li>
-          <li><a class="rss" href="{% static 'portal.php?mod=rss' %}" target="_blank">RSS</a></li>
-          <li><a class="wx" href="mailto:admin@admin.com">邮箱</a></li>
-        </ul>
-      </div>
-    </div>
+
     <!--tit01 end-->
     <div class="moreSelect" id="lp_right_select">
       <script>

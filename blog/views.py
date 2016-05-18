@@ -34,6 +34,10 @@ def global_setting(request):
     return {'SITE_NAME': settings.SITE_NAME,
             'SITE_DESC': settings.SITE_DESC,
             'SITE_URL': settings.SITE_URL,
+            'WEIBO_SINA': settings.WEIBO_SINA,
+            'WEIBO_TECENT': settings.WEIBO_TENCENT,
+            'PRO_RSS': settings.PRO_RSS,
+            'PRO_EMAIL': settings.PRO_EMAIL,
             'catalog_list': catalog_list,
             'column_list': column_list,
             'archive_list': archive_list,
@@ -80,7 +84,6 @@ def tag(request):
         tag_ = Tag.objects.get(id=tag_id)
         article_list = Article.objects.filter(tag=tag_)
         article_list = getPage(request, article_list)
-
     except Exception as e:
         logger.error(e)
     return render(request, 'tag.html', locals())
@@ -102,6 +105,8 @@ def get_article(request):
         try:
             # 获取文章信息
             article = Article.objects.get(pk=id)
+            article.click_count += 1
+            article.save()
         except Article.DoesNotExist:
             return render(request, 'failure.html', {'reason': '没有找到对应的文章'})
 
@@ -203,17 +208,7 @@ def do_login(request):
     except Exception as e:
         logger.error(e)
     return render(request, 'login.html', locals())
-#
-# def category(request):
-#     try:
-#         # 先获取客户端提交的信息
-#         cid = request.GET.get('cid', None)
-#         try:
-#             category = Category.objects.get(pk=cid)
-#         except Category.DoesNotExist:
-#             return render(request, 'failure.html', {'reason': '分类不存在'})
-#         article_list = Article.objects.filter(category=category)
-#         article_list = getPage(request, article_list)
-#     except Exception as e:
-#         logger.error(e)
-#     return render(request, 'category.html', locals())
+
+# 个人简历
+def resume(request):
+    return render(request, 'resume.html')
