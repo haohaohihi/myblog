@@ -82,7 +82,7 @@ _margin-bottom: 15px; }/*解决IE6下不兼容 position:fixed 的问题*/
 /*文章详情*/
 .postdate{float: left;display: block;background: url(../images/date.gif) no-repeat;height: 48px;width: 48px;line-height: 160%; margin-left: 10px; margin-right: 10px;}
 .month{text-transform: uppercase;text-align: center;color: #fcfff5;font-size: 12px;}
-.date{text-align: center;margin-top: 2px;font-size: 18px;}
+.date{text-align: center;margin-top: 4px;font-size: 22px;}
 .postmeta{color: #666666;font-size: 12px;}
 .postmeta_category{background: url(../images/category.gif) no-repeat;padding: 0 5px 0 18px;}
 .postmeta_comments{background: url(../images/comments.gif) no-repeat;padding-left: 18px;}

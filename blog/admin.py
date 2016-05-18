@@ -24,7 +24,7 @@ class CommentAdmin(admin.ModelAdmin):
     list_display = ('article', 'username', 'pid',)
     fields = ('article', 'username', 'pid ')
 
-class CategoryAdmin(admin.ModelAdmin):
+class CatalogAdmin(admin.ModelAdmin):
     list_display = ('name', 'index',)
 
 class AdAdmin(admin.ModelAdmin):
@@ -36,7 +36,8 @@ class LinksAdmin(admin.ModelAdmin):
 admin.site.register(User)
 admin.site.register(Tag, TagAdmin)
 admin.site.register(Article, ArticleAdmin)
-admin.site.register(Comment, CommentAdmin)
-admin.site.register(Category, CategoryAdmin)
+admin.site.register(Comment)
+admin.site.register(Catalog, CatalogAdmin)
 admin.site.register(Ad, AdAdmin)
 admin.site.register(Links, LinksAdmin)
+admin.site.register(Column)

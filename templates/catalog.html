@@ -4,7 +4,7 @@
 
     <!-- banner代码 结束 -->
     <div class="topnews">
-      <h2>最新文章</h2>
+      <h2>文章</h2>
         {% for article in article_list %}
       <div class="blogs">
         <ul>
@@ -16,5 +16,6 @@
     {% endfor %}
 
     </div>
-{% include 'pagination.html' %}
+
+    {% include 'pagination.html' %}
 {% endblock %}

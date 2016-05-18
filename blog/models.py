@@ -33,13 +33,25 @@ class Tag(models.Model):
     def __str__(self):
         return self.name
 
-# 分类
-class Category(models.Model):
-    name = models.CharField(max_length=30, verbose_name='分类名称')
-    index = models.IntegerField(default=999,verbose_name='分类的排序')
+# 目录
+class Catalog(models.Model):
+    name = models.CharField(default=None, max_length=30, verbose_name='目录名称')
+    index = models.IntegerField(default=999,verbose_name='目录的排序')
 
     class Meta:
-        verbose_name = '分类'
+        verbose_name = '目录'
+        verbose_name_plural = verbose_name
+        ordering = ['index', 'id']
+
+    def __str__(self):
+        return self.name
+
+class Column(models.Model):
+    name = models.CharField(default=None, max_length=30, verbose_name='栏目名称')
+    index = models.IntegerField(default=999,verbose_name='栏目的排序')
+    url = models.URLField()
+    class Meta:
+        verbose_name = '栏目'
         verbose_name_plural = verbose_name
         ordering = ['index', 'id']
 
@@ -68,7 +80,7 @@ class Article(models.Model):
     is_recommend = models.BooleanField(default=False, verbose_name='是否推荐')
     date_publish = models.DateTimeField(auto_now_add=True, verbose_name='发布时间')
     user = models.ForeignKey(User, verbose_name='用户')
-    category = models.ForeignKey(Category, blank=True, null=True, verbose_name='分类')
+    catalog = models.ForeignKey(Catalog, blank=True, null=True, verbose_name='目录')
     tag = models.ManyToManyField(Tag, verbose_name='标签')
 
     objects = ArticleManager()
@@ -90,7 +102,7 @@ class Comment(models.Model):
     date_publish = models.DateTimeField(auto_now_add=True, verbose_name='发布时间')
     user = models.ForeignKey(User, blank=True, null=True, verbose_name='用户')
     article = models.ForeignKey(Article, blank=True, null=True, verbose_name='文章')
-    pid = models.ForeignKey('self', blank=True, null=True, verbose_name='父级评论')
+    pid = models.ForeignKey('Comment', blank=True, null=True, verbose_name='父级评论')
 
     class Meta:
         verbose_name = '评论'
@@ -131,3 +143,4 @@ class Ad(models.Model):
 
     def __str__(self):
         return self.title
+

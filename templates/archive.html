@@ -1,10 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block left_content %}
 
-</body>
-</html>
+    <!-- banner代码 结束 -->
+    <div class="topnews">
+      <h2>{{ request.GET.year }}/{{ request.GET.month }}归档文章</h2>
+        {% for article in article_list %}
+      <div class="blogs">
+        <ul>
+          <h3><a href="/">{{ article.title }}</a></h3>
+          <p>{{ article }}...</p>
+          <p class="autor"><span class="lm f_l">{% for tag in article.tag.all %}<a href="/">{{ tag.name }}</a>&nbsp;{% endfor %}</span><span class="dtime f_l">{{ article.date_publish | date:"SHORT_DATE_FORMAT"  }}</span><span class="viewnum f_r">浏览（<a href="/">{{ article.click_count }}</a>）</span><span class="pingl f_r">评论（<a href="/">{{ article.comment_set.all.count }}</a>）</span></p>
+        </ul>
+      </div>
+    {% endfor %}
+
+    </div>
+
+    {% include 'pagination.html' %}
+{% endblock %}

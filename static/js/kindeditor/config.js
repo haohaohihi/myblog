@@ -3,7 +3,8 @@
  */
  KindEditor.ready(function(K) {
                 K.create('textarea[name=content]',{
-                    width:500,
-                    height:200,
+                    width:'800px',
+                    height:'600px',
+                    uploadJson: '/admin/upload/kindeditor',
                 });
         });
