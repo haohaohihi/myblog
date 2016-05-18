@@ -10,4 +10,5 @@ urlpatterns = [
     url(r'^reg', views.do_reg, name='reg'),
     url(r'^login', views.do_login, name='login'),
     url(r'^catalog/$', views.catalog, name='catalog'),
+    url(r'^tag/$', views.tag, name='tag'),
 ]

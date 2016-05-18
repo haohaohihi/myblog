@@ -18,7 +18,7 @@
         </div>
         <span class="tags">
             {% for tag in article.tag.all %}
-            <a href="?tag={{ tag.name }}" rel="tag">{{ tag.name }}</a>
+            <a href='{% url "tag" %}?id={{ tag.id }}' rel="tag">{{ tag.name }}</a>
             {% endfor %}
         </span>
         <div class="info">

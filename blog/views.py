@@ -21,6 +21,8 @@ def global_setting(request):
     # 栏目数据
     column_list = Column.objects.all()
 
+    # tag数据
+    tag_list = Tag.objects.all()
     # 文章归档
     # 1.先获取文章中的年份、月份
     archive_list = Article.objects.distinct_date()
@@ -35,6 +37,7 @@ def global_setting(request):
             'catalog_list': catalog_list,
             'column_list': column_list,
             'archive_list': archive_list,
+            'tag_list': tag_list,
             }
 
 def index(request):
@@ -70,6 +73,17 @@ def catalog(request):
         logger.error(e)
 
     return render(request, 'catalog.html', locals())
+
+def tag(request):
+    try:
+        tag_id = request.GET.get('id', None)
+        tag_ = Tag.objects.get(id=tag_id)
+        article_list = Article.objects.filter(tag=tag_)
+        article_list = getPage(request, article_list)
+
+    except Exception as e:
+        logger.error(e)
+    return render(request, 'tag.html', locals())
 
 # 分页代码
 def getPage(request, article_list):

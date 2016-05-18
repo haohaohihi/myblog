@@ -30,3 +30,17 @@
 2016-05-18 07:59:40,027 [Thread-20:140436402202368] [blog.views:70] [views:catalog] [ERROR]- Catalog matching query does not exist.
 2016-05-18 07:59:46,363 [Thread-22:140436402202368] [blog.views:70] [views:catalog] [ERROR]- Catalog matching query does not exist.
 2016-05-18 08:02:33,956 [Thread-39:140436384630528] [blog.views:70] [views:catalog] [ERROR]- Catalog matching query does not exist.
+2016-05-18 08:48:18,908 [Thread-3:140107966695168] [blog.views:85] [views:tag] [ERROR]- Catalog matching query does not exist.
+2016-05-18 08:49:26,930 [Thread-8:140107604555520] [blog.views:85] [views:tag] [ERROR]- Catalog matching query does not exist.
+2016-05-18 08:50:12,801 [Thread-14:140107966695168] [blog.views:85] [views:tag] [ERROR]- Catalog matching query does not exist.
+2016-05-18 08:51:04,664 [Thread-30:140107966695168] [blog.views:85] [views:tag] [ERROR]- Catalog matching query does not exist.
+2016-05-18 08:51:06,778 [Thread-32:140107966695168] [blog.views:85] [views:tag] [ERROR]- Catalog matching query does not exist.
+2016-05-18 08:52:15,024 [Thread-54:140107966695168] [blog.views:85] [views:tag] [ERROR]- Catalog matching query does not exist.
+2016-05-18 08:54:36,623 [Thread-97:140107975087872] [blog.views:85] [views:tag] [ERROR]- Catalog matching query does not exist.
+2016-05-18 08:54:40,241 [Thread-99:140107975087872] [blog.views:85] [views:tag] [ERROR]- Catalog matching query does not exist.
+2016-05-18 08:56:25,952 [Thread-2:139683536684800] [blog.views:85] [views:tag] [ERROR]- Cannot query "时政": Must be "Catalog" instance.
+2016-05-18 08:56:28,399 [Thread-8:139683494721280] [blog.views:85] [views:tag] [ERROR]- Cannot query "科技": Must be "Catalog" instance.
+2016-05-18 08:56:33,778 [Thread-10:139683494721280] [blog.views:85] [views:tag] [ERROR]- Cannot query "时政": Must be "Catalog" instance.
+2016-05-18 08:56:37,017 [Thread-12:139683494721280] [blog.views:85] [views:tag] [ERROR]- Cannot query "牢骚": Must be "Catalog" instance.
+2016-05-18 08:56:39,235 [Thread-14:139683494721280] [blog.views:85] [views:tag] [ERROR]- Cannot query "python": Must be "Catalog" instance.
+2016-05-18 08:56:41,113 [Thread-16:139683494721280] [blog.views:85] [views:tag] [ERROR]- Cannot query "时政": Must be "Catalog" instance.
