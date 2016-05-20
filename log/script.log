@@ -2872,3 +2872,5 @@ django.template.exceptions.TemplateDoesNotExist: resume.htm
 2016-05-18 12:02:05,636 [Thread-48:140112450684672] [django.request:182] [base:get_response] [WARNING]- Not Found: /resume/刘志浩简历模板 - 五百丁简历_files/check.jhtml
 2016-05-18 12:02:05,638 [Thread-47:140112369284864] [django.request:182] [base:get_response] [WARNING]- Not Found: /resume/刘志浩简历模板 - 五百丁简历_files/export.js
 2016-05-18 12:02:05,643 [Thread-49:140112344106752] [django.request:182] [base:get_response] [WARNING]- Not Found: /resume/刘志浩简历模板 - 五百丁简历_files/modal.js
+2016-05-20 06:12:40,682 [Thread-5:140589478938368] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2016-05-20 06:32:32,161 [Thread-33:140618001004288] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/www.baidu.com

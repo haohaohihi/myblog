@@ -27,6 +27,9 @@ def global_setting(request):
     # 1.先获取文章中的年份、月份
     archive_list = Article.objects.distinct_date()
 
+    # 标语
+    slogan = Slogan.objects.all()[0]
+
     # 标签云
     # 文章排行榜
     # 友情链接
@@ -42,6 +45,7 @@ def global_setting(request):
             'column_list': column_list,
             'archive_list': archive_list,
             'tag_list': tag_list,
+            'slogan_': slogan,
             }
 
 def index(request):
@@ -90,7 +94,7 @@ def tag(request):
 
 # 分页代码
 def getPage(request, article_list):
-    paginator = Paginator(article_list, 2)
+    paginator = Paginator(article_list, 8)
     try:
         page = int(request.GET.get('page', 1))
         article_list = paginator.page(page)

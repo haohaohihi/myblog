@@ -144,3 +144,12 @@ class Ad(models.Model):
     def __str__(self):
         return self.title
 
+class Slogan(models.Model):
+    content = models.TextField(max_length=200, verbose_name='标语')
+
+
+    class Meta:
+        verbose_name = '标语'
+        verbose_name_plural = verbose_name
+    def __str__(self):
+        return self.content
