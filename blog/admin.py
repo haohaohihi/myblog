@@ -15,11 +15,14 @@ class ArticleAdmin(admin.ModelAdmin):
 
     class Media:
         js = (
-            '/static/js/kindeditor/kindeditor-all-min.js',
-            '/static/js/kindeditor/lang/zh_CN.js',
-            '/static/js/kindeditor/config.js',
+            '/static/kindeditor/kindeditor-all.js',
+            '/static/kindeditor/lang/zh_CN.js',
+            '/static/kindeditor/config.js',
+            '/static/kindeditor/plugins/code/prettify.js'
         )
-
+        css = {
+            'all': '/static/kindeditor/plugins/code/prettify.css'
+        }
 class CommentAdmin(admin.ModelAdmin):
     list_display = ('article', 'username', 'pid',)
     fields = ('article', 'username', 'pid ')

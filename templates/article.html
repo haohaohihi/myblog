@@ -1,6 +1,11 @@
 {% extends 'base.html' %}
 {% load staticfiles %}
 {% block left_content %}
+
+    <link type="text/css" rel="stylesheet" href="{% static 'kindeditor/plugins/code/prettify.css' %}"/>
+    <script type="text/javascript" src="{% static 'kindeditor/plugins/code/prettify.js' %}"></script>
+    <script>prettyPrint();</script>
+
     <div class="postdate">
       <div class="month">{{ article.date_publish | date:'m' }}</div>
       <div class="date">{{ article.date_publish | date:'d' }}</div>

@@ -6686,9 +6686,7 @@ KindEditor.plugin('code', function(K) {
 				'<option value="py">Python</option>',
 				'<option value="rb">Ruby</option>',
 				'<option value="java">Java</option>',
-				'<option value="vb">ASP/VB</option>',
 				'<option value="cpp">C/C++</option>',
-				'<option value="cs">C#</option>',
 				'<option value="xml">XML</option>',
 				'<option value="bsh">Shell</option>',
 				'<option value="">Other</option>',
@@ -6707,7 +6705,7 @@ KindEditor.plugin('code', function(K) {
 						var type = K('.ke-code-type', dialog.div).val(),
 							code = textarea.val(),
 							cls = type === '' ? '' :  ' lang-' + type,
-							html = '<pre class="prettyprint' + cls + '">\n' + K.escape(code) + '</pre> ';
+							html = '<pre class="prettyprint linenums' + cls + '">\n' + K.escape(code) + '</pre> ';
 						if (K.trim(code) === '') {
 							alert(lang.pleaseInput);
 							textarea[0].focus();

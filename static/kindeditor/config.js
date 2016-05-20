@@ -6,5 +6,7 @@
                     width:'800px',
                     height:'600px',
                     uploadJson: '/admin/upload/kindeditor',
+                    cssPath : ['/static/kindeditor/plugins/code/prettify.css'],
                 });
+                prettyPrint();
         });
