@@ -2876,3 +2876,4 @@ django.template.exceptions.TemplateDoesNotExist: resume.htm
 2016-05-20 06:32:32,161 [Thread-33:140618001004288] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/www.baidu.com
 2016-05-20 14:35:36,599 [Thread-16:140500443059968] [django.request:182] [base:get_response] [WARNING]- Not Found: /admin/blog/article/7/change/[kePath]/plugins/code/prettify.css/change/
 2016-05-20 14:37:15,168 [Thread-47:140500685522688] [django.request:182] [base:get_response] [WARNING]- Not Found: /admin/blog/article/7/change/[kePath]/plugins/code/prettify.css/change/
+2016-05-20 16:50:05,165 [Thread-157:140135286544128] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico

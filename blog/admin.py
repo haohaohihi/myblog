@@ -13,16 +13,7 @@ class ArticleAdmin(admin.ModelAdmin):
     list_display = ('title', 'desc', 'click_count',)
     list_display_links = ('title', 'desc', 'click_count',)
 
-    class Media:
-        js = (
-            '/static/kindeditor/kindeditor-all.js',
-            '/static/kindeditor/lang/zh_CN.js',
-            '/static/kindeditor/config.js',
-            '/static/kindeditor/plugins/code/prettify.js'
-        )
-        css = {
-            'all': '/static/kindeditor/plugins/code/prettify.css'
-        }
+
 class CommentAdmin(admin.ModelAdmin):
     list_display = ('article', 'username', 'pid',)
     fields = ('article', 'username', 'pid ')

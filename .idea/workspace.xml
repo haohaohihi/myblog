@@ -5,214 +5,216 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19505368-1781-4ec6-b365-f5ecc70223d9" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/config.js" afterPath="$PROJECT_DIR$/static/kindeditor/config.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/kindeditor-all-min.js" afterPath="$PROJECT_DIR$/static/kindeditor/kindeditor-all-min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/kindeditor-all.js" afterPath="$PROJECT_DIR$/static/kindeditor/kindeditor-all.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/lang/ar.js" afterPath="$PROJECT_DIR$/static/kindeditor/lang/ar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/lang/en.js" afterPath="$PROJECT_DIR$/static/kindeditor/lang/en.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/lang/ko.js" afterPath="$PROJECT_DIR$/static/kindeditor/lang/ko.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/lang/ru.js" afterPath="$PROJECT_DIR$/static/kindeditor/lang/ru.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/lang/zh-CN.js" afterPath="$PROJECT_DIR$/static/kindeditor/lang/zh-CN.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/lang/zh-TW.js" afterPath="$PROJECT_DIR$/static/kindeditor/lang/zh-TW.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/license.txt" afterPath="$PROJECT_DIR$/static/kindeditor/license.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/anchor/anchor.js" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/anchor/anchor.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/autoheight/autoheight.js" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/autoheight/autoheight.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/baidumap/baidumap.js" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/baidumap/baidumap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/baidumap/index.html" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/baidumap/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/baidumap/map.html" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/baidumap/map.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/clearhtml/clearhtml.js" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/clearhtml/clearhtml.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/code/code.js" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/code/code.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/code/prettify.css" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/code/prettify.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/code/prettify.js" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/code/prettify.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/emoticons.js" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/emoticons.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/0.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/0.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/1.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/1.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/10.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/10.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/100.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/100.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/101.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/101.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/102.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/102.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/103.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/103.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/104.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/104.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/105.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/105.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/106.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/106.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/107.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/107.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/108.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/108.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/109.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/109.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/11.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/11.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/110.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/110.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/111.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/111.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/112.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/112.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/113.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/113.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/114.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/114.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/115.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/115.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/116.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/116.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/117.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/117.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/118.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/118.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/119.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/119.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/12.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/12.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/120.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/120.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/121.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/121.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/122.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/122.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/123.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/123.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/124.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/124.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/125.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/125.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/126.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/126.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/127.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/127.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/128.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/128.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/129.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/129.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/13.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/13.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/130.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/130.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/131.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/131.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/132.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/132.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/133.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/133.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/134.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/134.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/14.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/14.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/15.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/15.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/16.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/16.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/17.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/17.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/18.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/18.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/19.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/19.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/2.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/2.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/20.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/20.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/21.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/21.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/22.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/22.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/23.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/23.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/24.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/24.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/25.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/25.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/26.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/26.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/27.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/27.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/28.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/28.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/29.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/29.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/3.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/3.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/30.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/30.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/31.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/31.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/32.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/32.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/33.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/33.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/34.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/34.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/35.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/35.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/36.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/36.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/37.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/37.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/38.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/38.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/39.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/39.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/4.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/4.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/40.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/40.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/41.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/41.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/42.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/42.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/43.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/43.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/44.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/44.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/45.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/45.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/46.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/46.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/47.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/47.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/48.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/48.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/49.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/49.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/5.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/5.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/50.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/50.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/51.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/51.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/52.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/52.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/53.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/53.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/54.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/54.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/55.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/55.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/56.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/56.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/57.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/57.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/58.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/58.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/59.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/59.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/6.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/6.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/60.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/60.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/61.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/61.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/62.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/62.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/63.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/63.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/64.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/64.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/65.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/65.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/66.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/66.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/67.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/67.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/68.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/68.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/69.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/69.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/7.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/7.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/70.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/70.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/71.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/71.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/72.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/72.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/73.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/73.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/74.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/74.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/75.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/75.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/76.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/76.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/77.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/77.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/78.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/78.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/79.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/79.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/8.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/8.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/80.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/80.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/81.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/81.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/82.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/82.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/83.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/83.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/84.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/84.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/85.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/85.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/86.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/86.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/87.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/87.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/88.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/88.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/89.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/89.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/9.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/9.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/90.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/90.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/91.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/91.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/92.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/92.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/93.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/93.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/94.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/94.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/95.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/95.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/96.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/96.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/97.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/97.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/98.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/98.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/99.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/99.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/emoticons/images/static.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/static.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/filemanager/filemanager.js" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/filemanager/filemanager.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/filemanager/images/file-16.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/filemanager/images/file-16.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/filemanager/images/file-64.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/filemanager/images/file-64.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/filemanager/images/folder-16.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/filemanager/images/folder-16.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/filemanager/images/folder-64.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/filemanager/images/folder-64.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/filemanager/images/go-up.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/filemanager/images/go-up.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/fixtoolbar/fixtoolbar.js" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/fixtoolbar/fixtoolbar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/flash/flash.js" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/flash/flash.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/image/image.js" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/image/image.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/image/images/align_left.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/image/images/align_left.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/image/images/align_right.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/image/images/align_right.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/image/images/align_top.gif" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/image/images/align_top.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/image/images/refresh.png" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/image/images/refresh.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/insertfile/insertfile.js" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/insertfile/insertfile.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/lineheight/lineheight.js" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/lineheight/lineheight.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/link/link.js" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/link/link.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/map/map.html" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/map/map.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/map/map.js" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/map/map.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/media/media.js" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/media/media.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/multiimage/images/image.png" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/multiimage/images/image.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/multiimage/images/select-files-en.png" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/multiimage/images/select-files-en.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/multiimage/images/select-files-zh-CN.png" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/multiimage/images/select-files-zh-CN.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/multiimage/images/swfupload.swf" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/multiimage/images/swfupload.swf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/multiimage/multiimage.js" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/multiimage/multiimage.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/pagebreak/pagebreak.js" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/pagebreak/pagebreak.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/plainpaste/plainpaste.js" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/plainpaste/plainpaste.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/preview/preview.js" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/preview/preview.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/quickformat/quickformat.js" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/quickformat/quickformat.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/table/table.js" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/table/table.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/template/html/1.html" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/template/html/1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/template/html/2.html" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/template/html/2.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/template/html/3.html" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/template/html/3.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/template/template.js" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/template/template.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/plugins/wordpaste/wordpaste.js" afterPath="$PROJECT_DIR$/static/kindeditor/plugins/wordpaste/wordpaste.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/themes/common/anchor.gif" afterPath="$PROJECT_DIR$/static/kindeditor/themes/common/anchor.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/themes/common/blank.gif" afterPath="$PROJECT_DIR$/static/kindeditor/themes/common/blank.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/themes/common/flash.gif" afterPath="$PROJECT_DIR$/static/kindeditor/themes/common/flash.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/themes/common/loading.gif" afterPath="$PROJECT_DIR$/static/kindeditor/themes/common/loading.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/themes/common/media.gif" afterPath="$PROJECT_DIR$/static/kindeditor/themes/common/media.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/themes/common/rm.gif" afterPath="$PROJECT_DIR$/static/kindeditor/themes/common/rm.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/themes/default/background.png" afterPath="$PROJECT_DIR$/static/kindeditor/themes/default/background.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/themes/default/default.css" afterPath="$PROJECT_DIR$/static/kindeditor/themes/default/default.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/themes/default/default.png" afterPath="$PROJECT_DIR$/static/kindeditor/themes/default/default.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/themes/qq/editor.gif" afterPath="$PROJECT_DIR$/static/kindeditor/themes/qq/editor.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/themes/qq/qq.css" afterPath="$PROJECT_DIR$/static/kindeditor/themes/qq/qq.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/kindeditor/themes/simple/simple.css" afterPath="$PROJECT_DIR$/static/kindeditor/themes/simple/simple.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/kindeditor-all-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/kindeditor-all.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/lang/ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/lang/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/lang/ko.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/lang/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/lang/zh-CN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/lang/zh-TW.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/anchor/anchor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/autoheight/autoheight.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/baidumap/baidumap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/baidumap/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/baidumap/map.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/clearhtml/clearhtml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/code/code.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/code/prettify.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/code/prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/emoticons.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/10.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/100.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/101.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/102.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/103.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/104.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/105.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/106.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/107.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/108.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/109.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/11.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/110.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/111.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/112.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/113.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/114.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/115.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/116.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/117.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/118.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/119.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/12.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/120.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/121.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/122.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/123.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/124.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/125.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/126.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/127.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/128.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/129.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/13.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/130.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/131.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/132.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/133.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/134.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/14.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/15.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/16.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/17.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/18.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/19.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/20.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/21.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/22.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/23.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/24.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/25.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/26.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/27.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/28.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/29.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/30.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/31.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/32.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/33.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/34.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/35.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/36.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/37.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/38.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/39.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/40.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/41.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/42.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/43.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/44.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/45.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/46.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/47.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/48.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/49.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/50.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/51.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/52.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/53.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/54.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/55.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/56.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/57.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/58.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/59.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/60.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/61.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/62.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/63.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/64.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/65.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/66.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/67.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/68.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/69.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/7.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/70.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/71.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/72.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/73.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/74.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/75.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/76.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/77.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/78.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/79.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/8.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/80.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/81.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/82.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/83.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/84.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/85.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/86.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/87.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/88.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/89.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/9.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/90.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/91.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/92.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/93.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/94.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/95.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/96.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/97.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/98.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/99.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/emoticons/images/static.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/filemanager/filemanager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/filemanager/images/file-16.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/filemanager/images/file-64.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/filemanager/images/folder-16.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/filemanager/images/folder-64.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/filemanager/images/go-up.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/fixtoolbar/fixtoolbar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/flash/flash.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/image/image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/image/images/align_left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/image/images/align_right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/image/images/align_top.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/image/images/refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/insertfile/insertfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/lineheight/lineheight.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/link/link.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/map/map.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/map/map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/media/media.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/multiimage/images/image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/multiimage/images/select-files-en.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/multiimage/images/select-files-zh-CN.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/multiimage/images/swfupload.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/multiimage/multiimage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/pagebreak/pagebreak.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/plainpaste/plainpaste.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/preview/preview.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/quickformat/quickformat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/table/table.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/template/html/1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/template/html/2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/template/html/3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/template/template.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/plugins/wordpaste/wordpaste.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/themes/common/anchor.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/themes/common/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/themes/common/flash.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/themes/common/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/themes/common/media.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/themes/common/rm.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/themes/default/background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/themes/default/default.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/themes/default/default.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/themes/qq/editor.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/themes/qq/qq.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/kindeditor/themes/simple/simple.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/admin.py" afterPath="$PROJECT_DIR$/blog/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/models.py" afterPath="$PROJECT_DIR$/blog/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/all.log" afterPath="$PROJECT_DIR$/log/all.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/script.log" afterPath="$PROJECT_DIR$/log/script.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/settings.py" afterPath="$PROJECT_DIR$/myblog/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/urls.py" afterPath="$PROJECT_DIR$/myblog/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/article.html" afterPath="$PROJECT_DIR$/templates/article.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
     </list>
     <ignored path="myblog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -252,6 +254,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="article_list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/article_list.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -265,30 +277,18 @@
       <file leaf-file-name="article.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/article.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="181">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kindeditor-all-min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/kindeditor/kindeditor-all-min.js">
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="1" column="5180" selection-start-line="1" selection-start-column="5179" selection-end-line="1" selection-end-column="5180" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="27" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="27" />
+            <state relative-caret-position="-508">
+              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -297,8 +297,8 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1777">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            <state relative-caret-position="-1637">
+              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -307,133 +307,40 @@
       <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+            <state relative-caret-position="50">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/kindeditor/config.js">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myblog/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+            <state relative-caret-position="88">
+              <caret line="232" column="84" selection-start-line="232" selection-start-column="84" selection-end-line="232" selection-end-column="84" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kindeditor-all.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/kindeditor/kindeditor-all.js">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myblog/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="6712" column="25" selection-start-line="6712" selection-start-column="25" selection-end-line="6712" selection-end-column="25" />
-              <folding>
-                <marker date="1463756876428" expanded="true" signature="34734:34747" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="46825:46838" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="65429:65442" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="81862:81880" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="81970:81999" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="82086:82108" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="82260:82284" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="82833:82846" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="89517:89531" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="100756:100812" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="110016:110029" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="115378:115429" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="144146:144164" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="144197:144222" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="150133:150158" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="150620:150642" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="151446:151458" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="168240:168253" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="168435:168447" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="171034:171052" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="171230:171242" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="171725:171777" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="172631:172695" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="173241:173293" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="174194:174212" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="174366:174378" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="174608:174633" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="177637:177660" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="177816:177841" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="179904:179922" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="180567:180592" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="186509:186527" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="193002:193015" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="193086:193097" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="193210:193222" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="193595:193606" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="193840:193851" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="198993:199006" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="199071:199084" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="199157:199168" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="199290:199302" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="199582:199593" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="199978:199993" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="200096:200107" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="200746:200757" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="200882:200894" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="200956:200969" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="201015:201028" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="201287:201298" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="201414:201426" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="208991:209004" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="209073:209084" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="209187:209199" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="209565:209576" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="209694:209706" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="213178:213202" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="213923:213936" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="214011:214022" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="214137:214149" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="214234:214245" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="216401:216414" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="216485:216496" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="216609:216621" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="216994:217005" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="217238:217249" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="228281:228294" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="262415:262440" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="263426:263444" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="263467:263486" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="263560:263585" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="264803:264821" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="264883:264908" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="266756:266772" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="268940:268953" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="269025:269036" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="269399:269410" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="270110:270121" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="270499:270510" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="270928:270939" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="271281:271292" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="277992:278005" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="278078:278089" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="278787:278798" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="279628:279639" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="279981:279992" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="290326:290344" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="290914:290961" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="292190:292208" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="292231:292250" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="292338:292363" placeholder="..." />
-                <marker date="1463756876428" expanded="true" signature="293008:293056" placeholder="..." />
-              </folding>
+            <state relative-caret-position="244">
+              <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="code.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/kindeditor/plugins/code/code.js">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="48" column="60" selection-start-line="48" selection-start-column="60" selection-end-line="48" selection-end-column="60" />
+            <state relative-caret-position="-1062">
+              <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
               <folding>
-                <marker date="1463756622018" expanded="true" signature="659:677" placeholder="..." />
-                <marker date="1463756622018" expanded="true" signature="1402:1427" placeholder="..." />
+                <marker date="1463759597315" expanded="true" signature="2267:3071" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -456,11 +363,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/myblog/settings.py" />
         <option value="$PROJECT_DIR$/blog/upload.py" />
         <option value="$PROJECT_DIR$/static/js/kindeditor/config.js" />
         <option value="$PROJECT_DIR$/templates/indexcopy.html" />
-        <option value="$PROJECT_DIR$/myblog/urls.py" />
         <option value="$PROJECT_DIR$/blog/templatetags/__init__.py" />
         <option value="$PROJECT_DIR$/blog/templatetags/myfilter.py" />
         <option value="$PROJECT_DIR$/static/css/base.css" />
@@ -484,14 +389,17 @@
         <option value="$PROJECT_DIR$/templates/article_list.html" />
         <option value="$PROJECT_DIR$/static/resume/style.css" />
         <option value="$PROJECT_DIR$/templates/resume.html" />
-        <option value="$PROJECT_DIR$/blog/models.py" />
         <option value="$PROJECT_DIR$/blog/views.py" />
         <option value="$PROJECT_DIR$/static/kindeditor/config.js" />
-        <option value="$PROJECT_DIR$/templates/article.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/blog/admin.py" />
         <option value="$PROJECT_DIR$/static/kindeditor/plugins/code/code.js" />
         <option value="$PROJECT_DIR$/static/kindeditor/kindeditor-all.js" />
+        <option value="$PROJECT_DIR$/static/kindeditor/plugins/code/prettify.css" />
+        <option value="$PROJECT_DIR$/templates/article.html" />
+        <option value="$PROJECT_DIR$/blog/admin.py" />
+        <option value="$PROJECT_DIR$/myblog/urls.py" />
+        <option value="$PROJECT_DIR$/blog/models.py" />
+        <option value="$PROJECT_DIR$/myblog/settings.py" />
       </list>
     </option>
   </component>
@@ -559,72 +467,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kindeditor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kindeditor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kindeditor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -827,6 +669,19 @@
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="myblog" />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -1038,14 +893,14 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
+    <frame x="0" y="27" width="1366" height="741" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23708206" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34574467" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32809773" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2268761" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1105,20 +960,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/kindeditor/license.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/kindeditor/lang/ar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/kindeditor/lang/ru.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1235,13 +1076,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1256,24 +1090,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myblog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/tag.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1341,16 +1161,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/resume.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1375,14 +1185,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="148" column="0" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -1399,30 +1201,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1777">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/article_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="399" selection-start-line="5" selection-start-column="370" selection-end-line="5" selection-end-column="399" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/article.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/kindeditor/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -1433,11 +1211,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/kindeditor/kindeditor-all-min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
+        <state relative-caret-position="-703">
           <caret line="1" column="5180" selection-start-line="1" selection-start-column="5179" selection-end-line="1" selection-end-column="5180" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1451,10 +1227,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/admin.py">
+    <entry file="file://$PROJECT_DIR$/static/kindeditor/kindeditor-all.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+        <state relative-caret-position="250">
+          <caret line="6712" column="25" selection-start-line="6712" selection-start-column="25" selection-end-line="6712" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/kindeditor/plugins/code/prettify.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/article_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="399" selection-start-line="5" selection-start-column="370" selection-end-line="5" selection-end-column="399" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1637">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -1463,110 +1263,73 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
           <caret line="48" column="60" selection-start-line="48" selection-start-column="60" selection-end-line="48" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myblog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1062">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
           <folding>
-            <marker date="1463756622018" expanded="true" signature="659:677" placeholder="..." />
-            <marker date="1463756622018" expanded="true" signature="1402:1427" placeholder="..." />
+            <marker date="1463759597315" expanded="true" signature="2267:3071" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/kindeditor/kindeditor-all.js">
+    <entry file="file://$PROJECT_DIR$/static/ckeditor/lang/af.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="6712" column="25" selection-start-line="6712" selection-start-column="25" selection-end-line="6712" selection-end-column="25" />
-          <folding>
-            <marker date="1463756876428" expanded="true" signature="34734:34747" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="46825:46838" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="65429:65442" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="81862:81880" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="81970:81999" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="82086:82108" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="82260:82284" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="82833:82846" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="89517:89531" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="100756:100812" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="110016:110029" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="115378:115429" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="144146:144164" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="144197:144222" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="150133:150158" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="150620:150642" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="151446:151458" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="168240:168253" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="168435:168447" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="171034:171052" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="171230:171242" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="171725:171777" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="172631:172695" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="173241:173293" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="174194:174212" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="174366:174378" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="174608:174633" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="177637:177660" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="177816:177841" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="179904:179922" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="180567:180592" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="186509:186527" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="193002:193015" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="193086:193097" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="193210:193222" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="193595:193606" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="193840:193851" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="198993:199006" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="199071:199084" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="199157:199168" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="199290:199302" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="199582:199593" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="199978:199993" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="200096:200107" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="200746:200757" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="200882:200894" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="200956:200969" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="201015:201028" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="201287:201298" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="201414:201426" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="208991:209004" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="209073:209084" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="209187:209199" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="209565:209576" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="209694:209706" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="213178:213202" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="213923:213936" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="214011:214022" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="214137:214149" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="214234:214245" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="216401:216414" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="216485:216496" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="216609:216621" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="216994:217005" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="217238:217249" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="228281:228294" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="262415:262440" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="263426:263444" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="263467:263486" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="263560:263585" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="264803:264821" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="264883:264908" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="266756:266772" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="268940:268953" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="269025:269036" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="269399:269410" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="270110:270121" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="270499:270510" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="270928:270939" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="271281:271292" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="277992:278005" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="278078:278089" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="278787:278798" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="279628:279639" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="279981:279992" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="290326:290344" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="290914:290961" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="292190:292208" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="292231:292250" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="292338:292363" placeholder="..." />
-            <marker date="1463756876428" expanded="true" signature="293008:293056" placeholder="..." />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myblog/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="232" column="84" selection-start-line="232" selection-start-column="84" selection-end-line="232" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-508">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

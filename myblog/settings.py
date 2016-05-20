@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'blog'
+    'blog',
+    'ckeditor'
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -122,6 +123,10 @@ USE_TZ = True
 
 MEDIA_URL = '/uploads/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'uploads')
+CKEDITOR_UPLOAD_PATH = "credictor"
+CKEDITOR_IMAGE_BACKEND = 'pillow'                # 处理图片的模块
+CKEDITOR_RESTRICT_BY_USER = True
+CKEDITOR_BROWSE_SHOW_DIRS = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
@@ -217,5 +222,37 @@ LOGGING = {
             'level': 'DEBUG',
             'propagate': True
         },
+    }
+}
+
+
+
+CKEDITOR_CONFIGS = {
+'default': {
+    'toolbar': (
+        ['div','Source','-','Save','NewPage','Preview','-','Templates','CodeSnippet'],
+        ['Cut','Copy','Paste','PasteText','PasteFromWord','-','Print','SpellChecker','Scayt'],
+        ['Undo','Redo','-','Find','Replace','-','SelectAll','RemoveFormat'],
+        ['Form','Checkbox','Radio','TextField','Textarea','Select','Button', 'ImageButton','HiddenField'],
+        ['Bold','Italic','Underline','Strike','-','Subscript','Superscript'],
+        ['NumberedList','BulletedList','-','Outdent','Indent','Blockquote'],
+        ['JustifyLeft','JustifyCenter','JustifyRight','JustifyBlock'],
+        ['Link','Unlink','Anchor'],
+        ['Image','Flash','Table','HorizontalRule','Smiley','SpecialChar','PageBreak'],
+        ['Styles','Format','Font','FontSize'],
+        ['TextColor','BGColor'],
+        ['Maximize','ShowBlocks','-','About', 'pbckcode'],
+    ),
+},
+'你的Ckeditor工具栏名':{
+    'toolbar':(
+        ['Cut','Copy','Paste','PasteText','PasteFromWord','-','Print','SpellChecker','Scayt'],
+        ['Image','Flash','Table','HorizontalRule','Smiley','SpecialChar','PageBreak'],
+        ['Styles','Format','Font','FontSize'],
+    ),
+    'height': 291,
+    'width': 835,
+    'filebrowserWindowWidth': 940,
+    'filebrowserWindowHeight': 725,
     }
 }

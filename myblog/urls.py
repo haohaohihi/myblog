@@ -24,5 +24,6 @@ urlpatterns = [
                 {"document_root": settings.MEDIA_ROOT}),
     url(r'^admin/upload/(?P<dir_name>[^/]+)$', upload_image, name='upload_image'),
     url(r'^admin/', admin.site.urls),
-    url(r'', include('blog.urls'))
+    url(r'', include('blog.urls')),
+    url(r'^ckeditor/', include('ckeditor_uploader.urls')),
 ]
