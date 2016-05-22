@@ -19,11 +19,11 @@
         <div class="entry">
           {{ article.content | safe }}
         </div>
-        <span class="tags">
+
             {% for tag in article.tag.all %}
-            <a href='{% url "tag" %}?id={{ tag.id }}' rel="tag">{{ tag.name }}</a>
+            <span class="tags"><a href='{% url "tag" %}?id={{ tag.id }}' rel="tag">{{ tag.name }}</a></span>
             {% endfor %}
-        </span>
+
         <div class="info">
         所属目录:  <a href="{% url "catalog" %}?id={{ article.catalog.id }}" rel="bookmark" title="{{ article.title }}">{{ article.catalog.name }}</a>
         </div>
