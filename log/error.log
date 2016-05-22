@@ -44,3 +44,8 @@
 2016-05-18 08:56:37,017 [Thread-12:139683494721280] [blog.views:85] [views:tag] [ERROR]- Cannot query "牢骚": Must be "Catalog" instance.
 2016-05-18 08:56:39,235 [Thread-14:139683494721280] [blog.views:85] [views:tag] [ERROR]- Cannot query "python": Must be "Catalog" instance.
 2016-05-18 08:56:41,113 [Thread-16:139683494721280] [blog.views:85] [views:tag] [ERROR]- Cannot query "时政": Must be "Catalog" instance.
+2016-05-22 09:57:57,730 [Thread-2:140492035262208] [blog.views:140] [views:get_article] [ERROR]- 'User' object has no attribute 'name'
+2016-05-22 09:58:03,178 [Thread-20:140492017690368] [blog.views:140] [views:get_article] [ERROR]- 'User' object has no attribute 'name'
+2016-05-22 09:58:05,851 [Thread-37:140491802801920] [blog.views:140] [views:get_article] [ERROR]- 'User' object has no attribute 'name'
+2016-05-22 09:58:06,543 [Thread-40:140491802801920] [blog.views:140] [views:get_article] [ERROR]- 'User' object has no attribute 'name'
+2016-05-22 09:58:08,158 [Thread-56:140491786016512] [blog.views:140] [views:get_article] [ERROR]- 'User' object has no attribute 'name'

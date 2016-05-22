@@ -254,7 +254,8 @@ CKEDITOR_CONFIGS = {
             'php': 'PHP',
             'Python': 'Python',
             'java': 'java',
-            'cpp': 'cpp'
+            'cpp': 'cpp',
+            'bash': 'BASH'
         },
 
 	},
