@@ -243,7 +243,7 @@ CKEDITOR_CONFIGS = {
 			['TextColor','BGColor'],
 			['Maximize','ShowBlocks','-','About','CodeSnippet'],
 		),
-
+        'tabSpaces': 4,
         'extraPlugins': ','.join(
             [
                 # your extra plugins here
@@ -256,6 +256,7 @@ CKEDITOR_CONFIGS = {
             'java': 'java',
             'cpp': 'cpp'
         },
+
 	},
 
 }
