@@ -6796,3 +6796,460 @@ django.template.base.VariableDoesNotExist: Failed lookup for key [can_delete_rel
 2016-05-22 07:10:05,169 [Thread-27:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
 2016-05-22 07:10:05,170 [Thread-27:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'lkubhg0jsike6w2k7xg2pp9u4gac995h' AND `django_session`.`expire_date` > '2016-05-22 07:10:05.165662'); args=('lkubhg0jsike6w2k7xg2pp9u4gac995h', '2016-05-22 07:10:05.165662')
 2016-05-22 07:10:05,172 [Thread-27:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) SELECT `blog_user`.`id`, `blog_user`.`password`, `blog_user`.`last_login`, `blog_user`.`is_superuser`, `blog_user`.`username`, `blog_user`.`first_name`, `blog_user`.`last_name`, `blog_user`.`email`, `blog_user`.`is_staff`, `blog_user`.`is_active`, `blog_user`.`date_joined`, `blog_user`.`avatar`, `blog_user`.`qq`, `blog_user`.`mobile`, `blog_user`.`url` FROM `blog_user` WHERE `blog_user`.`id` = 1; args=(1,)
+2016-05-22 07:15:50,276 [Thread-29:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+2016-05-22 07:15:50,281 [Thread-29:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+2016-05-22 07:15:50,282 [Thread-29:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'lkubhg0jsike6w2k7xg2pp9u4gac995h' AND `django_session`.`expire_date` > '2016-05-22 07:15:50.261174'); args=('lkubhg0jsike6w2k7xg2pp9u4gac995h', '2016-05-22 07:15:50.261174')
+2016-05-22 07:15:50,285 [Thread-29:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_user`.`id`, `blog_user`.`password`, `blog_user`.`last_login`, `blog_user`.`is_superuser`, `blog_user`.`username`, `blog_user`.`first_name`, `blog_user`.`last_name`, `blog_user`.`email`, `blog_user`.`is_staff`, `blog_user`.`is_active`, `blog_user`.`date_joined`, `blog_user`.`avatar`, `blog_user`.`qq`, `blog_user`.`mobile`, `blog_user`.`url` FROM `blog_user` WHERE `blog_user`.`id` = 1; args=(1,)
+2016-05-22 07:15:50,292 [Thread-29:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_user`.`id`, `blog_user`.`password`, `blog_user`.`last_login`, `blog_user`.`is_superuser`, `blog_user`.`username`, `blog_user`.`first_name`, `blog_user`.`last_name`, `blog_user`.`email`, `blog_user`.`is_staff`, `blog_user`.`is_active`, `blog_user`.`date_joined`, `blog_user`.`avatar`, `blog_user`.`qq`, `blog_user`.`mobile`, `blog_user`.`url` FROM `blog_user` WHERE `blog_user`.`id` = 1; args=(1,)
+2016-05-22 07:15:50,294 [Thread-29:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_catalog`.`id`, `blog_catalog`.`name`, `blog_catalog`.`index` FROM `blog_catalog` WHERE `blog_catalog`.`id` = 1; args=(1,)
+2016-05-22 07:15:50,296 [Thread-29:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_tag`.`id`, `blog_tag`.`name` FROM `blog_tag` WHERE `blog_tag`.`id` IN (1); args=(1,)
+2016-05-22 07:15:50,298 [Thread-29:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT (1) AS `a` FROM `blog_user` WHERE `blog_user`.`id` = 1 LIMIT 1; args=(1,)
+2016-05-22 07:15:50,300 [Thread-29:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT (1) AS `a` FROM `blog_catalog` WHERE `blog_catalog`.`id` = 1 LIMIT 1; args=(1,)
+2016-05-22 07:15:50,303 [Thread-29:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) INSERT INTO `blog_article` (`title`, `desc`, `content`, `click_count`, `is_recommend`, `date_publish`, `user_id`, `catalog_id`) VALUES ('dfas', 'dfas1111111', '<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fads</p>', 0, 0, '2016-05-22 07:15:50.301376', 1, 1); args=['dfas', 'dfas1111111', '<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fads</p>', 0, False, '2016-05-22 07:15:50.301376', 1, 1]
+2016-05-22 07:15:50,305 [Thread-29:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_tag`.`id` FROM `blog_tag` INNER JOIN `blog_article_tag` ON (`blog_tag`.`id` = `blog_article_tag`.`tag_id`) WHERE `blog_article_tag`.`article_id` = 2; args=(2,)
+2016-05-22 07:15:50,307 [Thread-29:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_article_tag`.`tag_id` FROM `blog_article_tag` WHERE (`blog_article_tag`.`article_id` = 2 AND `blog_article_tag`.`tag_id` IN (1)); args=(2, 1)
+2016-05-22 07:15:50,318 [Thread-29:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.010) INSERT INTO `blog_article_tag` (`article_id`, `tag_id`) VALUES (2, 1); args=(2, 1)
+2016-05-22 07:15:50,331 [Thread-29:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.011) INSERT INTO `django_admin_log` (`action_time`, `user_id`, `content_type_id`, `object_id`, `object_repr`, `action_flag`, `change_message`) VALUES ('2016-05-22 07:15:50.319751', 1, 10, '2', 'dfas', 1, 'Added.'); args=['2016-05-22 07:15:50.319751', 1, 10, '2', 'dfas', 1, 'Added.']
+2016-05-22 07:15:50,354 [Thread-30:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+2016-05-22 07:15:50,356 [Thread-30:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+2016-05-22 07:15:50,357 [Thread-30:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'lkubhg0jsike6w2k7xg2pp9u4gac995h' AND `django_session`.`expire_date` > '2016-05-22 07:15:50.351376'); args=('lkubhg0jsike6w2k7xg2pp9u4gac995h', '2016-05-22 07:15:50.351376')
+2016-05-22 07:15:50,365 [Thread-30:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.006) SELECT `blog_user`.`id`, `blog_user`.`password`, `blog_user`.`last_login`, `blog_user`.`is_superuser`, `blog_user`.`username`, `blog_user`.`first_name`, `blog_user`.`last_name`, `blog_user`.`email`, `blog_user`.`is_staff`, `blog_user`.`is_active`, `blog_user`.`date_joined`, `blog_user`.`avatar`, `blog_user`.`qq`, `blog_user`.`mobile`, `blog_user`.`url` FROM `blog_user` WHERE `blog_user`.`id` = 1; args=(1,)
+2016-05-22 07:15:50,367 [Thread-30:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT COUNT(*) AS `__count` FROM `blog_article`; args=()
+2016-05-22 07:15:50,371 [Thread-30:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_article`.`id`, `blog_article`.`title`, `blog_article`.`desc`, `blog_article`.`content`, `blog_article`.`click_count`, `blog_article`.`is_recommend`, `blog_article`.`date_publish`, `blog_article`.`user_id`, `blog_article`.`catalog_id` FROM `blog_article` ORDER BY `blog_article`.`date_publish` DESC, `blog_article`.`id` DESC; args=()
+2016-05-22 07:15:50,379 [Thread-30:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_article`.`date_publish` FROM `blog_article` ORDER BY `blog_article`.`date_publish` DESC; args=()
+2016-05-22 07:15:50,388 [Thread-30:140287917680384] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 883, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 891, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 898, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [errors] in 'None'
+2016-05-22 07:15:50,392 [Thread-30:140287917680384] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'show' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 883, in _resolve_lookup
+    current = current[bit]
+  File "/usr/local/lib/python3.4/dist-packages/django/template/context.py", line 77, in __getitem__
+    raise KeyError(key)
+KeyError: 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 889, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 898, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [show] in "[{'False': False, 'None': None, 'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7f97587c10d0>>, 'True': True}]"
+2016-05-22 07:15:50,393 [Thread-30:140287917680384] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'is_multipart' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 883, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 891, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'is_multipart'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 898, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_multipart'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_multipart] in 'None'
+2016-05-22 07:15:50,402 [Thread-30:140287917680384] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 883, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 891, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 898, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [non_field_errors] in 'None'
+2016-05-22 07:15:50,402 [Thread-30:140287917680384] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 883, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 891, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 898, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [non_field_errors] in 'None'
+2016-05-22 07:15:50,467 [Thread-31:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+2016-05-22 07:15:50,478 [Thread-31:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+2016-05-22 07:15:50,479 [Thread-31:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'lkubhg0jsike6w2k7xg2pp9u4gac995h' AND `django_session`.`expire_date` > '2016-05-22 07:15:50.466185'); args=('lkubhg0jsike6w2k7xg2pp9u4gac995h', '2016-05-22 07:15:50.466185')
+2016-05-22 07:15:50,481 [Thread-31:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_user`.`id`, `blog_user`.`password`, `blog_user`.`last_login`, `blog_user`.`is_superuser`, `blog_user`.`username`, `blog_user`.`first_name`, `blog_user`.`last_name`, `blog_user`.`email`, `blog_user`.`is_staff`, `blog_user`.`is_active`, `blog_user`.`date_joined`, `blog_user`.`avatar`, `blog_user`.`qq`, `blog_user`.`mobile`, `blog_user`.`url` FROM `blog_user` WHERE `blog_user`.`id` = 1; args=(1,)
+2016-05-22 07:15:55,713 [Thread-33:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+2016-05-22 07:15:55,714 [Thread-33:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT COUNT(*) AS `__count` FROM `blog_article`; args=()
+2016-05-22 07:15:55,718 [Thread-33:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_article`.`date_publish` FROM `blog_article` ORDER BY `blog_article`.`date_publish` DESC; args=()
+2016-05-22 07:15:55,740 [Thread-33:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_column`.`id`, `blog_column`.`name`, `blog_column`.`index`, `blog_column`.`url` FROM `blog_column` ORDER BY `blog_column`.`index` ASC, `blog_column`.`id` ASC LIMIT 21; args=()
+2016-05-22 07:15:55,741 [Thread-33:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_tag`.`id`, `blog_tag`.`name` FROM `blog_tag` LIMIT 21; args=()
+2016-05-22 07:15:55,742 [Thread-33:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_catalog`.`id`, `blog_catalog`.`name`, `blog_catalog`.`index` FROM `blog_catalog` ORDER BY `blog_catalog`.`index` ASC, `blog_catalog`.`id` ASC LIMIT 21; args=()
+2016-05-22 07:15:55,739 [Thread-33:140287892502272] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'slogan_' in template 'index.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 883, in _resolve_lookup
+    current = current[bit]
+  File "/usr/local/lib/python3.4/dist-packages/django/template/context.py", line 77, in __getitem__
+    raise KeyError(key)
+KeyError: 'slogan_'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 889, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'slogan_'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 898, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'slogan_'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [slogan_] in "[{'False': False, 'None': None, 'True': True}, {'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f9759067710>, 'column_list': [], 'WEIBO_SINA': 'http://weibo.sina.com/yopoing', 'archive_list': ['2016/05文章存档'], 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x7f97587c18c8>>, 'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7f97587c1ae8>>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'ERROR': 40, 'WARNING': 30, 'SUCCESS': 25, 'INFO': 20}, 'tag_list': [<Tag: afds>], 'WEIBO_TECENT': 'http://weibo.qq.com/yopoing', 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f9759067630>, 'catalog_list': [<Catalog: fdas>], 'request': <WSGIRequest: GET '/'>, 'SITE_NAME': 'Zack的个人博客', 'SITE_DESC': '专注Python开发，欢迎和大家交流', 'PRO_RSS': 'http://ww2w.baidu.com', 'PRO_EMAIL': 'yopoing@vip.qq.com', 'SITE_URL': 'http://localhost:8000/'}, {}, {'article_list': <Page 1 of 1>, 'request': <WSGIRequest: GET '/'>}]"
+2016-05-22 07:15:55,743 [Thread-33:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_column`.`id`, `blog_column`.`name`, `blog_column`.`index`, `blog_column`.`url` FROM `blog_column` ORDER BY `blog_column`.`index` ASC, `blog_column`.`id` ASC; args=()
+2016-05-22 07:15:55,746 [Thread-33:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_article`.`id`, `blog_article`.`title`, `blog_article`.`desc`, `blog_article`.`content`, `blog_article`.`click_count`, `blog_article`.`is_recommend`, `blog_article`.`date_publish`, `blog_article`.`user_id`, `blog_article`.`catalog_id` FROM `blog_article` ORDER BY `blog_article`.`date_publish` DESC LIMIT 2; args=()
+2016-05-22 07:15:55,748 [Thread-33:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_tag`.`id`, `blog_tag`.`name` FROM `blog_tag` INNER JOIN `blog_article_tag` ON (`blog_tag`.`id` = `blog_article_tag`.`tag_id`) WHERE `blog_article_tag`.`article_id` = 2; args=(2,)
+2016-05-22 07:15:55,751 [Thread-33:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) SELECT COUNT(*) AS `__count` FROM `blog_comment` WHERE `blog_comment`.`article_id` = 2; args=(2,)
+2016-05-22 07:15:55,753 [Thread-33:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_tag`.`id`, `blog_tag`.`name` FROM `blog_tag` INNER JOIN `blog_article_tag` ON (`blog_tag`.`id` = `blog_article_tag`.`tag_id`) WHERE `blog_article_tag`.`article_id` = 1; args=(1,)
+2016-05-22 07:15:55,755 [Thread-33:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT COUNT(*) AS `__count` FROM `blog_comment` WHERE `blog_comment`.`article_id` = 1; args=(1,)
+2016-05-22 07:15:55,780 [Thread-33:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_catalog`.`id`, `blog_catalog`.`name`, `blog_catalog`.`index` FROM `blog_catalog` ORDER BY `blog_catalog`.`index` ASC, `blog_catalog`.`id` ASC; args=()
+2016-05-22 07:15:55,781 [Thread-33:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_tag`.`id`, `blog_tag`.`name` FROM `blog_tag`; args=()
+2016-05-22 07:54:00,223 [Thread-40:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+2016-05-22 07:54:00,226 [Thread-40:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+2016-05-22 07:54:00,227 [Thread-40:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_article`.`id`, `blog_article`.`title`, `blog_article`.`desc`, `blog_article`.`content`, `blog_article`.`click_count`, `blog_article`.`is_recommend`, `blog_article`.`date_publish`, `blog_article`.`user_id`, `blog_article`.`catalog_id` FROM `blog_article` WHERE `blog_article`.`id` = 2; args=(2,)
+2016-05-22 07:54:00,229 [Thread-40:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) UPDATE `blog_article` SET `title` = 'dfas', `desc` = 'dfas1111111', `content` = '<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fads</p>', `click_count` = 1, `is_recommend` = 0, `date_publish` = '2016-05-22 07:15:50.301376', `user_id` = 1, `catalog_id` = 1 WHERE `blog_article`.`id` = 2; args=('dfas', 'dfas1111111', '<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fads</p>', 1, False, '2016-05-22 07:15:50.301376', 1, 1, 2)
+2016-05-22 07:54:00,239 [Thread-40:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'zbtle7qhqeedwy7b24zxr6r6fl43gveo' AND `django_session`.`expire_date` > '2016-05-22 07:54:00.237321'); args=('zbtle7qhqeedwy7b24zxr6r6fl43gveo', '2016-05-22 07:54:00.237321')
+2016-05-22 07:54:00,242 [Thread-40:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) SELECT `blog_user`.`id`, `blog_user`.`password`, `blog_user`.`last_login`, `blog_user`.`is_superuser`, `blog_user`.`username`, `blog_user`.`first_name`, `blog_user`.`last_name`, `blog_user`.`email`, `blog_user`.`is_staff`, `blog_user`.`is_active`, `blog_user`.`date_joined`, `blog_user`.`avatar`, `blog_user`.`qq`, `blog_user`.`mobile`, `blog_user`.`url` FROM `blog_user` WHERE `blog_user`.`id` = 1; args=(1,)
+2016-05-22 07:54:00,245 [Thread-40:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_comment`.`id`, `blog_comment`.`content`, `blog_comment`.`username`, `blog_comment`.`email`, `blog_comment`.`url`, `blog_comment`.`date_publish`, `blog_comment`.`user_id`, `blog_comment`.`article_id`, `blog_comment`.`pid_id` FROM `blog_comment` WHERE `blog_comment`.`article_id` = 2 ORDER BY `blog_comment`.`id` ASC; args=(2,)
+2016-05-22 07:54:00,264 [Thread-40:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) SELECT `blog_article`.`date_publish` FROM `blog_article` ORDER BY `blog_article`.`date_publish` DESC; args=()
+2016-05-22 07:54:00,276 [Thread-40:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_column`.`id`, `blog_column`.`name`, `blog_column`.`index`, `blog_column`.`url` FROM `blog_column` ORDER BY `blog_column`.`index` ASC, `blog_column`.`id` ASC LIMIT 21; args=()
+2016-05-22 07:54:00,278 [Thread-40:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_tag`.`id`, `blog_tag`.`name` FROM `blog_tag` LIMIT 21; args=()
+2016-05-22 07:54:00,279 [Thread-40:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_catalog`.`id`, `blog_catalog`.`name`, `blog_catalog`.`index` FROM `blog_catalog` ORDER BY `blog_catalog`.`index` ASC, `blog_catalog`.`id` ASC LIMIT 21; args=()
+2016-05-22 07:54:00,275 [Thread-40:140287917680384] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'slogan_' in template 'article.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 883, in _resolve_lookup
+    current = current[bit]
+  File "/usr/local/lib/python3.4/dist-packages/django/template/context.py", line 77, in __getitem__
+    raise KeyError(key)
+KeyError: 'slogan_'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 889, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'slogan_'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 898, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'slogan_'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [slogan_] in "[{'False': False, 'None': None, 'True': True}, {'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f97587cca90>, 'column_list': [], 'WEIBO_SINA': 'http://weibo.sina.com/yopoing', 'archive_list': ['2016/05文章存档'], 'user': <SimpleLazyObject: <User: haohao>>, 'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7f97588597b8>>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'ERROR': 40, 'WARNING': 30, 'SUCCESS': 25, 'INFO': 20}, 'tag_list': [<Tag: afds>], 'WEIBO_TECENT': 'http://weibo.qq.com/yopoing', 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f9759067b38>, 'catalog_list': [<Catalog: fdas>], 'request': <WSGIRequest: GET '/article/?id=2'>, 'SITE_NAME': 'Zack的个人博客', 'SITE_DESC': '专注Python开发，欢迎和大家交流', 'PRO_RSS': 'http://ww2w.baidu.com', 'PRO_EMAIL': 'yopoing@vip.qq.com', 'SITE_URL': 'http://localhost:8000/'}, {}, {'comment_list': [], 'id': '2', 'request': <WSGIRequest: GET '/article/?id=2'>, 'article': <Article: dfas>, 'comments': [], 'comment_form': <CommentForm bound=True, valid=Unknown, fields=(author;email;url;comment;article)>}]"
+2016-05-22 07:54:00,281 [Thread-40:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_column`.`id`, `blog_column`.`name`, `blog_column`.`index`, `blog_column`.`url` FROM `blog_column` ORDER BY `blog_column`.`index` ASC, `blog_column`.`id` ASC; args=()
+2016-05-22 07:54:00,284 [Thread-40:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_user`.`id`, `blog_user`.`password`, `blog_user`.`last_login`, `blog_user`.`is_superuser`, `blog_user`.`username`, `blog_user`.`first_name`, `blog_user`.`last_name`, `blog_user`.`email`, `blog_user`.`is_staff`, `blog_user`.`is_active`, `blog_user`.`date_joined`, `blog_user`.`avatar`, `blog_user`.`qq`, `blog_user`.`mobile`, `blog_user`.`url` FROM `blog_user` WHERE `blog_user`.`id` = 1; args=(1,)
+2016-05-22 07:54:00,285 [Thread-40:140287917680384] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'category' in template 'article.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 883, in _resolve_lookup
+    current = current[bit]
+TypeError: 'Article' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 891, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'Article' object has no attribute 'category'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 898, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'category'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [category] in 'dfas'
+2016-05-22 07:54:00,287 [Thread-40:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_tag`.`id`, `blog_tag`.`name` FROM `blog_tag` INNER JOIN `blog_article_tag` ON (`blog_tag`.`id` = `blog_article_tag`.`tag_id`) WHERE `blog_article_tag`.`article_id` = 2; args=(2,)
+2016-05-22 07:54:00,290 [Thread-40:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT COUNT(*) AS `__count` FROM `blog_comment` WHERE `blog_comment`.`article_id` = 2; args=(2,)
+2016-05-22 07:54:00,295 [Thread-40:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) SELECT `blog_catalog`.`id`, `blog_catalog`.`name`, `blog_catalog`.`index` FROM `blog_catalog` ORDER BY `blog_catalog`.`index` ASC, `blog_catalog`.`id` ASC; args=()
+2016-05-22 07:54:00,296 [Thread-40:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_tag`.`id`, `blog_tag`.`name` FROM `blog_tag`; args=()
+2016-05-22 07:55:54,225 [Thread-44:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+2016-05-22 07:55:54,229 [Thread-44:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+2016-05-22 07:55:54,231 [Thread-44:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) SELECT `blog_article`.`id`, `blog_article`.`title`, `blog_article`.`desc`, `blog_article`.`content`, `blog_article`.`click_count`, `blog_article`.`is_recommend`, `blog_article`.`date_publish`, `blog_article`.`user_id`, `blog_article`.`catalog_id` FROM `blog_article` WHERE `blog_article`.`id` = 2; args=(2,)
+2016-05-22 07:55:54,234 [Thread-44:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) UPDATE `blog_article` SET `title` = 'dfas', `desc` = 'dfas1111111', `content` = '<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fads</p>', `click_count` = 2, `is_recommend` = 0, `date_publish` = '2016-05-22 07:15:50.301376', `user_id` = 1, `catalog_id` = 1 WHERE `blog_article`.`id` = 2; args=('dfas', 'dfas1111111', '<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fads</p>', 2, False, '2016-05-22 07:15:50.301376', 1, 1, 2)
+2016-05-22 07:55:54,242 [Thread-44:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'lkubhg0jsike6w2k7xg2pp9u4gac995h' AND `django_session`.`expire_date` > '2016-05-22 07:55:54.240116'); args=('lkubhg0jsike6w2k7xg2pp9u4gac995h', '2016-05-22 07:55:54.240116')
+2016-05-22 07:55:54,245 [Thread-44:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_user`.`id`, `blog_user`.`password`, `blog_user`.`last_login`, `blog_user`.`is_superuser`, `blog_user`.`username`, `blog_user`.`first_name`, `blog_user`.`last_name`, `blog_user`.`email`, `blog_user`.`is_staff`, `blog_user`.`is_active`, `blog_user`.`date_joined`, `blog_user`.`avatar`, `blog_user`.`qq`, `blog_user`.`mobile`, `blog_user`.`url` FROM `blog_user` WHERE `blog_user`.`id` = 1; args=(1,)
+2016-05-22 07:55:54,248 [Thread-44:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_comment`.`id`, `blog_comment`.`content`, `blog_comment`.`username`, `blog_comment`.`email`, `blog_comment`.`url`, `blog_comment`.`date_publish`, `blog_comment`.`user_id`, `blog_comment`.`article_id`, `blog_comment`.`pid_id` FROM `blog_comment` WHERE `blog_comment`.`article_id` = 2 ORDER BY `blog_comment`.`id` ASC; args=(2,)
+2016-05-22 07:55:54,255 [Thread-44:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_article`.`date_publish` FROM `blog_article` ORDER BY `blog_article`.`date_publish` DESC; args=()
+2016-05-22 07:55:54,263 [Thread-44:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_column`.`id`, `blog_column`.`name`, `blog_column`.`index`, `blog_column`.`url` FROM `blog_column` ORDER BY `blog_column`.`index` ASC, `blog_column`.`id` ASC LIMIT 21; args=()
+2016-05-22 07:55:54,264 [Thread-44:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_tag`.`id`, `blog_tag`.`name` FROM `blog_tag` LIMIT 21; args=()
+2016-05-22 07:55:54,265 [Thread-44:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_catalog`.`id`, `blog_catalog`.`name`, `blog_catalog`.`index` FROM `blog_catalog` ORDER BY `blog_catalog`.`index` ASC, `blog_catalog`.`id` ASC LIMIT 21; args=()
+2016-05-22 07:55:54,261 [Thread-44:140287892502272] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'slogan_' in template 'article.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 883, in _resolve_lookup
+    current = current[bit]
+  File "/usr/local/lib/python3.4/dist-packages/django/template/context.py", line 77, in __getitem__
+    raise KeyError(key)
+KeyError: 'slogan_'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 889, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'slogan_'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 898, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'slogan_'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [slogan_] in "[{'False': False, 'None': None, 'True': True}, {'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f9758858cc0>, 'column_list': [], 'WEIBO_SINA': 'http://weibo.sina.com/yopoing', 'archive_list': ['2016/05文章存档'], 'user': <SimpleLazyObject: <User: haohao>>, 'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7f97587c1c80>>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'ERROR': 40, 'WARNING': 30, 'SUCCESS': 25, 'INFO': 20}, 'tag_list': [<Tag: afds>], 'WEIBO_TECENT': 'http://weibo.qq.com/yopoing', 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f9759067748>, 'catalog_list': [<Catalog: fdas>], 'request': <WSGIRequest: GET '/article/?id=2'>, 'SITE_NAME': 'Zack的个人博客', 'SITE_DESC': '专注Python开发，欢迎和大家交流', 'PRO_RSS': 'http://ww2w.baidu.com', 'PRO_EMAIL': 'yopoing@vip.qq.com', 'SITE_URL': 'http://localhost:8000/'}, {}, {'comment_list': [], 'id': '2', 'request': <WSGIRequest: GET '/article/?id=2'>, 'article': <Article: dfas>, 'comments': [], 'comment_form': <CommentForm bound=True, valid=Unknown, fields=(author;email;url;comment;article)>}]"
+2016-05-22 07:55:54,268 [Thread-44:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) SELECT `blog_column`.`id`, `blog_column`.`name`, `blog_column`.`index`, `blog_column`.`url` FROM `blog_column` ORDER BY `blog_column`.`index` ASC, `blog_column`.`id` ASC; args=()
+2016-05-22 07:55:54,271 [Thread-44:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_user`.`id`, `blog_user`.`password`, `blog_user`.`last_login`, `blog_user`.`is_superuser`, `blog_user`.`username`, `blog_user`.`first_name`, `blog_user`.`last_name`, `blog_user`.`email`, `blog_user`.`is_staff`, `blog_user`.`is_active`, `blog_user`.`date_joined`, `blog_user`.`avatar`, `blog_user`.`qq`, `blog_user`.`mobile`, `blog_user`.`url` FROM `blog_user` WHERE `blog_user`.`id` = 1; args=(1,)
+2016-05-22 07:55:54,272 [Thread-44:140287892502272] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'category' in template 'article.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 883, in _resolve_lookup
+    current = current[bit]
+TypeError: 'Article' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 891, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'Article' object has no attribute 'category'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 898, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'category'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [category] in 'dfas'
+2016-05-22 07:55:54,274 [Thread-44:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_tag`.`id`, `blog_tag`.`name` FROM `blog_tag` INNER JOIN `blog_article_tag` ON (`blog_tag`.`id` = `blog_article_tag`.`tag_id`) WHERE `blog_article_tag`.`article_id` = 2; args=(2,)
+2016-05-22 07:55:54,277 [Thread-44:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT COUNT(*) AS `__count` FROM `blog_comment` WHERE `blog_comment`.`article_id` = 2; args=(2,)
+2016-05-22 07:55:54,280 [Thread-44:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_catalog`.`id`, `blog_catalog`.`name`, `blog_catalog`.`index` FROM `blog_catalog` ORDER BY `blog_catalog`.`index` ASC, `blog_catalog`.`id` ASC; args=()
+2016-05-22 07:55:54,282 [Thread-44:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_tag`.`id`, `blog_tag`.`name` FROM `blog_tag`; args=()
+2016-05-22 07:59:49,784 [Thread-50:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+2016-05-22 07:59:49,786 [Thread-50:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+2016-05-22 07:59:49,787 [Thread-50:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_article`.`id`, `blog_article`.`title`, `blog_article`.`desc`, `blog_article`.`content`, `blog_article`.`click_count`, `blog_article`.`is_recommend`, `blog_article`.`date_publish`, `blog_article`.`user_id`, `blog_article`.`catalog_id` FROM `blog_article` WHERE `blog_article`.`id` = 2; args=(2,)
+2016-05-22 07:59:49,790 [Thread-50:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) UPDATE `blog_article` SET `title` = 'dfas', `desc` = 'dfas1111111', `content` = '<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fads</p>', `click_count` = 3, `is_recommend` = 0, `date_publish` = '2016-05-22 07:15:50.301376', `user_id` = 1, `catalog_id` = 1 WHERE `blog_article`.`id` = 2; args=('dfas', 'dfas1111111', '<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fads</p>', 3, False, '2016-05-22 07:15:50.301376', 1, 1, 2)
+2016-05-22 07:59:49,799 [Thread-50:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'lkubhg0jsike6w2k7xg2pp9u4gac995h' AND `django_session`.`expire_date` > '2016-05-22 07:59:49.797189'); args=('lkubhg0jsike6w2k7xg2pp9u4gac995h', '2016-05-22 07:59:49.797189')
+2016-05-22 07:59:49,802 [Thread-50:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) SELECT `blog_user`.`id`, `blog_user`.`password`, `blog_user`.`last_login`, `blog_user`.`is_superuser`, `blog_user`.`username`, `blog_user`.`first_name`, `blog_user`.`last_name`, `blog_user`.`email`, `blog_user`.`is_staff`, `blog_user`.`is_active`, `blog_user`.`date_joined`, `blog_user`.`avatar`, `blog_user`.`qq`, `blog_user`.`mobile`, `blog_user`.`url` FROM `blog_user` WHERE `blog_user`.`id` = 1; args=(1,)
+2016-05-22 07:59:49,806 [Thread-50:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) SELECT `blog_comment`.`id`, `blog_comment`.`content`, `blog_comment`.`username`, `blog_comment`.`email`, `blog_comment`.`url`, `blog_comment`.`date_publish`, `blog_comment`.`user_id`, `blog_comment`.`article_id`, `blog_comment`.`pid_id` FROM `blog_comment` WHERE `blog_comment`.`article_id` = 2 ORDER BY `blog_comment`.`id` ASC; args=(2,)
+2016-05-22 07:59:49,815 [Thread-50:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_article`.`date_publish` FROM `blog_article` ORDER BY `blog_article`.`date_publish` DESC; args=()
+2016-05-22 07:59:49,823 [Thread-50:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_column`.`id`, `blog_column`.`name`, `blog_column`.`index`, `blog_column`.`url` FROM `blog_column` ORDER BY `blog_column`.`index` ASC, `blog_column`.`id` ASC LIMIT 21; args=()
+2016-05-22 07:59:49,824 [Thread-50:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_tag`.`id`, `blog_tag`.`name` FROM `blog_tag` LIMIT 21; args=()
+2016-05-22 07:59:49,826 [Thread-50:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_catalog`.`id`, `blog_catalog`.`name`, `blog_catalog`.`index` FROM `blog_catalog` ORDER BY `blog_catalog`.`index` ASC, `blog_catalog`.`id` ASC LIMIT 21; args=()
+2016-05-22 07:59:49,821 [Thread-50:140287892502272] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'slogan_' in template 'article.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 883, in _resolve_lookup
+    current = current[bit]
+  File "/usr/local/lib/python3.4/dist-packages/django/template/context.py", line 77, in __getitem__
+    raise KeyError(key)
+KeyError: 'slogan_'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 889, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'slogan_'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 898, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'slogan_'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [slogan_] in "[{'False': False, 'None': None, 'True': True}, {'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f97587f4390>, 'column_list': [], 'WEIBO_SINA': 'http://weibo.sina.com/yopoing', 'archive_list': ['2016/05文章存档'], 'user': <SimpleLazyObject: <User: haohao>>, 'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7f9758859e18>>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'ERROR': 40, 'WARNING': 30, 'SUCCESS': 25, 'INFO': 20}, 'tag_list': [<Tag: afds>], 'WEIBO_TECENT': 'http://weibo.qq.com/yopoing', 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f97590b50b8>, 'catalog_list': [<Catalog: fdas>], 'request': <WSGIRequest: GET '/article/?id=2'>, 'SITE_NAME': 'Zack的个人博客', 'SITE_DESC': '专注Python开发，欢迎和大家交流', 'PRO_RSS': 'http://ww2w.baidu.com', 'PRO_EMAIL': 'yopoing@vip.qq.com', 'SITE_URL': 'http://localhost:8000/'}, {}, {'comment_list': [], 'id': '2', 'request': <WSGIRequest: GET '/article/?id=2'>, 'article': <Article: dfas>, 'comments': [], 'comment_form': <CommentForm bound=True, valid=Unknown, fields=(author;email;url;comment;article)>}]"
+2016-05-22 07:59:49,829 [Thread-50:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_column`.`id`, `blog_column`.`name`, `blog_column`.`index`, `blog_column`.`url` FROM `blog_column` ORDER BY `blog_column`.`index` ASC, `blog_column`.`id` ASC; args=()
+2016-05-22 07:59:49,831 [Thread-50:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_user`.`id`, `blog_user`.`password`, `blog_user`.`last_login`, `blog_user`.`is_superuser`, `blog_user`.`username`, `blog_user`.`first_name`, `blog_user`.`last_name`, `blog_user`.`email`, `blog_user`.`is_staff`, `blog_user`.`is_active`, `blog_user`.`date_joined`, `blog_user`.`avatar`, `blog_user`.`qq`, `blog_user`.`mobile`, `blog_user`.`url` FROM `blog_user` WHERE `blog_user`.`id` = 1; args=(1,)
+2016-05-22 07:59:49,833 [Thread-50:140287892502272] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'category' in template 'article.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 883, in _resolve_lookup
+    current = current[bit]
+TypeError: 'Article' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 891, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'Article' object has no attribute 'category'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 898, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'category'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [category] in 'dfas'
+2016-05-22 07:59:49,835 [Thread-50:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) SELECT `blog_tag`.`id`, `blog_tag`.`name` FROM `blog_tag` INNER JOIN `blog_article_tag` ON (`blog_tag`.`id` = `blog_article_tag`.`tag_id`) WHERE `blog_article_tag`.`article_id` = 2; args=(2,)
+2016-05-22 07:59:49,838 [Thread-50:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_catalog`.`id`, `blog_catalog`.`name`, `blog_catalog`.`index` FROM `blog_catalog` WHERE `blog_catalog`.`id` = 1; args=(1,)
+2016-05-22 07:59:49,840 [Thread-50:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT COUNT(*) AS `__count` FROM `blog_comment` WHERE `blog_comment`.`article_id` = 2; args=(2,)
+2016-05-22 07:59:49,844 [Thread-50:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_catalog`.`id`, `blog_catalog`.`name`, `blog_catalog`.`index` FROM `blog_catalog` ORDER BY `blog_catalog`.`index` ASC, `blog_catalog`.`id` ASC; args=()
+2016-05-22 07:59:49,846 [Thread-50:140287892502272] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_tag`.`id`, `blog_tag`.`name` FROM `blog_tag`; args=()
+2016-05-22 07:59:51,606 [Thread-66:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+2016-05-22 07:59:51,609 [Thread-66:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+2016-05-22 07:59:51,610 [Thread-66:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_catalog`.`id`, `blog_catalog`.`name`, `blog_catalog`.`index` FROM `blog_catalog` WHERE `blog_catalog`.`id` = 1; args=(1,)
+2016-05-22 07:59:51,612 [Thread-66:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT COUNT(*) AS `__count` FROM `blog_article` WHERE `blog_article`.`catalog_id` = 1; args=(1,)
+2016-05-22 07:59:51,616 [Thread-66:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_article`.`date_publish` FROM `blog_article` ORDER BY `blog_article`.`date_publish` DESC; args=()
+2016-05-22 07:59:51,623 [Thread-66:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_column`.`id`, `blog_column`.`name`, `blog_column`.`index`, `blog_column`.`url` FROM `blog_column` ORDER BY `blog_column`.`index` ASC, `blog_column`.`id` ASC LIMIT 21; args=()
+2016-05-22 07:59:51,624 [Thread-66:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_tag`.`id`, `blog_tag`.`name` FROM `blog_tag` LIMIT 21; args=()
+2016-05-22 07:59:51,626 [Thread-66:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_catalog`.`id`, `blog_catalog`.`name`, `blog_catalog`.`index` FROM `blog_catalog` ORDER BY `blog_catalog`.`index` ASC, `blog_catalog`.`id` ASC LIMIT 21; args=()
+2016-05-22 07:59:51,621 [Thread-66:140287917680384] [django.template:927] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'slogan_' in template 'catalog.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 883, in _resolve_lookup
+    current = current[bit]
+  File "/usr/local/lib/python3.4/dist-packages/django/template/context.py", line 77, in __getitem__
+    raise KeyError(key)
+KeyError: 'slogan_'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 889, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'slogan_'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 898, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'slogan_'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [slogan_] in "[{'False': False, 'None': None, 'True': True}, {'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f9758844a58>, 'column_list': [], 'WEIBO_SINA': 'http://weibo.sina.com/yopoing', 'archive_list': ['2016/05文章存档'], 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x7f97590d6620>>, 'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7f9758859e18>>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'ERROR': 40, 'WARNING': 30, 'SUCCESS': 25, 'INFO': 20}, 'tag_list': [<Tag: afds>], 'WEIBO_TECENT': 'http://weibo.qq.com/yopoing', 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f97590b7390>, 'catalog_list': [<Catalog: fdas>], 'request': <WSGIRequest: GET '/catalog/?id=1'>, 'SITE_NAME': 'Zack的个人博客', 'SITE_DESC': '专注Python开发，欢迎和大家交流', 'PRO_RSS': 'http://ww2w.baidu.com', 'PRO_EMAIL': 'yopoing@vip.qq.com', 'SITE_URL': 'http://localhost:8000/'}, {}, {'article_list': <Page 1 of 1>, 'request': <WSGIRequest: GET '/catalog/?id=1'>, 'catalog_id': '1', 'catalog_': <Catalog: fdas>}]"
+2016-05-22 07:59:51,629 [Thread-66:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_column`.`id`, `blog_column`.`name`, `blog_column`.`index`, `blog_column`.`url` FROM `blog_column` ORDER BY `blog_column`.`index` ASC, `blog_column`.`id` ASC; args=()
+2016-05-22 07:59:51,633 [Thread-66:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) SELECT `blog_article`.`id`, `blog_article`.`title`, `blog_article`.`desc`, `blog_article`.`content`, `blog_article`.`click_count`, `blog_article`.`is_recommend`, `blog_article`.`date_publish`, `blog_article`.`user_id`, `blog_article`.`catalog_id` FROM `blog_article` WHERE `blog_article`.`catalog_id` = 1 ORDER BY `blog_article`.`date_publish` DESC LIMIT 2; args=(1,)
+2016-05-22 07:59:51,636 [Thread-66:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_tag`.`id`, `blog_tag`.`name` FROM `blog_tag` INNER JOIN `blog_article_tag` ON (`blog_tag`.`id` = `blog_article_tag`.`tag_id`) WHERE `blog_article_tag`.`article_id` = 2; args=(2,)
+2016-05-22 07:59:51,638 [Thread-66:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT COUNT(*) AS `__count` FROM `blog_comment` WHERE `blog_comment`.`article_id` = 2; args=(2,)
+2016-05-22 07:59:51,641 [Thread-66:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) SELECT `blog_tag`.`id`, `blog_tag`.`name` FROM `blog_tag` INNER JOIN `blog_article_tag` ON (`blog_tag`.`id` = `blog_article_tag`.`tag_id`) WHERE `blog_article_tag`.`article_id` = 1; args=(1,)
+2016-05-22 07:59:51,644 [Thread-66:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT COUNT(*) AS `__count` FROM `blog_comment` WHERE `blog_comment`.`article_id` = 1; args=(1,)
+2016-05-22 07:59:51,667 [Thread-66:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_catalog`.`id`, `blog_catalog`.`name`, `blog_catalog`.`index` FROM `blog_catalog` ORDER BY `blog_catalog`.`index` ASC, `blog_catalog`.`id` ASC; args=()
+2016-05-22 07:59:51,668 [Thread-66:140287917680384] [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) SELECT `blog_tag`.`id`, `blog_tag`.`name` FROM `blog_tag`; args=()
