@@ -28,7 +28,7 @@ def global_setting(request):
     archive_list = Article.objects.distinct_date()
 
     # 标语
-    slogan = Slogan.objects.all()[0]
+    # slogan = Slogan.objects.all()[0]
 
     # 标签云
     # 文章排行榜
@@ -45,7 +45,7 @@ def global_setting(request):
             'column_list': column_list,
             'archive_list': archive_list,
             'tag_list': tag_list,
-            'slogan_': slogan,
+            # 'slogan_': slogan,
             }
 
 def index(request):

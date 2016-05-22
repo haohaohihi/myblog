@@ -134,7 +134,7 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR,  'static'),
 )
-
+STATIC_ROOT = os.path.join(BASE_DIR, 'c_static')
 #自定义用户model
 AUTH_USER_MODEL = 'blog.User'
 
@@ -228,31 +228,35 @@ LOGGING = {
 
 
 CKEDITOR_CONFIGS = {
-'default': {
-    'toolbar': (
-        ['div','Source','-','Save','NewPage','Preview','-','Templates','CodeSnippet'],
-        ['Cut','Copy','Paste','PasteText','PasteFromWord','-','Print','SpellChecker','Scayt'],
-        ['Undo','Redo','-','Find','Replace','-','SelectAll','RemoveFormat'],
-        ['Form','Checkbox','Radio','TextField','Textarea','Select','Button', 'ImageButton','HiddenField'],
-        ['Bold','Italic','Underline','Strike','-','Subscript','Superscript'],
-        ['NumberedList','BulletedList','-','Outdent','Indent','Blockquote'],
-        ['JustifyLeft','JustifyCenter','JustifyRight','JustifyBlock'],
-        ['Link','Unlink','Anchor'],
-        ['Image','Flash','Table','HorizontalRule','Smiley','SpecialChar','PageBreak'],
-        ['Styles','Format','Font','FontSize'],
-        ['TextColor','BGColor'],
-        ['Maximize','ShowBlocks','-','About', 'pbckcode'],
-    ),
-},
-'你的Ckeditor工具栏名':{
-    'toolbar':(
-        ['Cut','Copy','Paste','PasteText','PasteFromWord','-','Print','SpellChecker','Scayt'],
-        ['Image','Flash','Table','HorizontalRule','Smiley','SpecialChar','PageBreak'],
-        ['Styles','Format','Font','FontSize'],
-    ),
-    'height': 291,
-    'width': 835,
-    'filebrowserWindowWidth': 940,
-    'filebrowserWindowHeight': 725,
-    }
+    'default': {
+        'toolbar': (
+			['div','Source','-','Save','NewPage','Preview','-','Templates'],
+			['Cut','Copy','Paste','PasteText','PasteFromWord','-','Print','SpellChecker','Scayt'],
+			['Undo','Redo','-','Find','Replace','-','SelectAll','RemoveFormat'],
+			['Form','Checkbox','Radio','TextField','Textarea','Select','Button', 'ImageButton','HiddenField'],
+			['Bold','Italic','Underline','Strike','-','Subscript','Superscript'],
+			['NumberedList','BulletedList','-','Outdent','Indent','Blockquote'],
+			['JustifyLeft','JustifyCenter','JustifyRight','JustifyBlock'],
+			['Link','Unlink','Anchor'],
+			['Image','Flash','Table','HorizontalRule','Smiley','SpecialChar','PageBreak'],
+			['Styles','Format','Font','FontSize'],
+			['TextColor','BGColor'],
+			['Maximize','ShowBlocks','-','About','CodeSnippet'],
+		),
+
+        'extraPlugins': ','.join(
+            [
+                # your extra plugins here
+                'prism',
+            ]),
+        'codeSnippet_languages': {
+            'javascript': 'JavaScript',
+            'php': 'PHP',
+            'Python': 'Python',
+            'java': 'java',
+            'cpp': 'cpp'
+        },
+	},
+
 }
+
